@@ -1,1 +1,122 @@
+<head>
+  <!--<link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://db-scheme-return-sitecore.sit02.tpr.gov.uk/dist/db-scheme-return/static/css/2.5601b7ee.chunk.css">
+  <link rel="stylesheet" href="https://db-scheme-return-sitecore.sit02.tpr.gov.uk/dist/db-scheme-return/static/css/main.36894ca7.chunk.css">-->
+  
 
+
+
+  <link rel="stylesheet" href="gds-style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/tpr-style.css">
+  
+<style>
+ body {font-family: OpenSans;
+  }
+</style>
+
+  
+</head>
+<body>
+  
+  
+<header>
+  <div class="layout_docWidth__3059x beta_beta__2i-o_">
+    <div class="layout_appWidth__38eTX">
+      <div class="globals_flex__3XB_K globals_alignItems-center__25sEa">
+        <p class="typography_p__1WhbC globals_fontSize-1__1PNIE globals_color-white__20apa globals_bg-primary-3__13NFP globals_p-1__Z-NT3 globals_my-2__3k7zw globals_mr-3__unUVF">BETA</p>
+        <p class="typography_p__1WhbC globals_fontSize-1__1PNIE globals_color-neutral-6__3uCWw">This is a new service - your feedback will help us improve it.</p>
+      </div>
+    </div>
+  </div>
+  <div class="layout_docWidth__3059x header_headerBackground__2GgTW">
+    <div class="layout_appWidth__38eTX"><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_py-2__xVBkl globals_pr-3__1MQpb">
+      <div class="globals_flex__3XB_K globals_alignItems-center__25sEa">
+        <div class="header_logo__113kX">
+        <img class="header_img__35G8p" src="https://db-scheme-return-sitecore.sit02.tpr.gov.uk/-/media/Apps/Images/TPR-Logo-Header.ashx" alt="TPR Logo">
+        </div>
+        <p class="typography_p__1WhbC globals_color-white__20apa globals_fontWeight-2__3bANn">Scheme Return</p>
+      </div>
+      <div class="globals_flex__3XB_K globals_alignItems-center__25sEa">
+        <button type="button" data-testid="onClickSchemeOptions" class="buttons_link__27Xio buttons_link-underline__2egTQ globals_color-white__20apa globals_mr-4__1Nkk_">Scheme Options</button>
+        <button type="button" data-testid="onClickLogout" class="buttons_link__27Xio buttons_link-underline__2egTQ globals_color-white__20apa">Log out</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</header>  
+  
+  
+<div class="globals_flex__3XB_K globals_flexDirection-row__m0ceA globals_justifyContent-center__1xoF5">
+  <div class="globals_flex__3XB_K local_aside__3w7oi globals_flexDirection-column__1sqJF globals_width-2__1ftbr">
+    <div class="sidebar_sidebar__2PEJS"  style="margin: 5px">
+      <div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF globals_mt-4__2PxH7">
+        <button type="button" class="buttons_link__27Xio globals_fontWeight-3__F6zPg globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontSize-4__dhtUV">Scheme return home</button>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mt-4__2PxH7 globals_mb-2__2xZfM">
+          <p class="typography_p__1WhbC">Section</p>
+          <p class="typography_p__1WhbC">Progress 3 / 15</p>
+        </div>
+      </div>
+      <div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF">
+      <h3 class="typography_h3__2z8nb globals_fontWeight-2__3bANn globals_mt-4__2PxH7">Scheme details (DB)</h3>
+        <hr class="typography_hr__AfHzL typography_hr__AfHzL globals_my-4__eO7k1">
+      <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+        <button type="button" class="buttons_link__27Xio buttons_link-underline__2egTQ sidebar_activeLink__wF8QT globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Scheme name and address</button>
+        <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-success-1__1ccSa" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="checked-circle"><circle cx="11" cy="11" r="11"></circle><g transform="translate(5.665 5.915)"><path d="M3.648-6.692,7.785-4.11l5.863-8.975" transform="translate(-3.648 13.085)" fill="none" stroke="#fff" stroke-width="3"></path></g></svg></div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+        <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Scheme status and membership</button>
+          <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-success-1__1ccSa" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="checked-circle"><circle cx="11" cy="11" r="11"></circle><g transform="translate(5.665 5.915)"><path d="M3.648-6.692,7.785-4.11l5.863-8.975" transform="translate(-3.648 13.085)" fill="none" stroke="#fff" stroke-width="3"></path></g></svg></div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl"><button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Consent to electronic communication</button><svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-success-1__1ccSa" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="checked-circle"><circle cx="11" cy="11" r="11"></circle><g transform="translate(5.665 5.915)"><path d="M3.648-6.692,7.785-4.11l5.863-8.975" transform="translate(-3.648 13.085)" fill="none" stroke="#fff" stroke-width="3"></path></g></svg></div>
+      </div>
+      <div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF">
+        <h3 class="typography_h3__2z8nb globals_fontWeight-2__3bANn globals_mt-4__2PxH7">Roles</h3>
+        <hr class="typography_hr__AfHzL typography_hr__AfHzL globals_my-4__eO7k1"><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+        <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Trustee details</button>
+        <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle">
+          <path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg>
+        </div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+          <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Employer details</button>
+          <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+          <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Service provider details</button>
+          <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg>
+        </div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+          <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Named contact details</button>
+          <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF"><h3 class="typography_h3__2z8nb globals_fontWeight-2__3bANn globals_mt-4__2PxH7">Finances</h3>
+        <hr class="typography_hr__AfHzL typography_hr__AfHzL globals_my-4__eO7k1"><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+      <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Asset Breakdown</button>
+      <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg>
+        </div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+          <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Buyout Valuation</button>
+          <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg>
+        </div>
+        <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl">
+          <button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">S179 Valuation</button>
+          <svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl"><button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Part 3 Valuation</button><svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl"><button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Liability Hedging</button><svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl"><button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Employer Covenant</button><svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div><div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl"><button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg">Statement of Investment Principles</button><svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-2__3lj0r" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div></div><div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF"><h3 class="typography_h3__2z8nb globals_fontWeight-2__3bANn globals_mt-4__2PxH7">Finish up</h3><hr class="typography_hr__AfHzL typography_hr__AfHzL globals_my-4__eO7k1">
+      <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mb-5__2trzl"><button type="button" class="buttons_link__27Xio globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontWeight-3__F6zPg globals_width-8__K8PVg" disabled="">Review and submit</button><svg width="22" height="22" fill="" stroke="" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" class="globals_fill-danger-1__3euvn" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="error-circle"><path d="M241.259,11476.006a11,11,0,1,0,11,11A11,11,0,0,0,241.259,11476.006Zm1.181,17.4a1.6,1.6,0,0,1-1.172.416,1.642,1.642,0,0,1-1.19-.408,1.81,1.81,0,0,1-.009-2.311,1.671,1.671,0,0,1,1.2-.4,1.624,1.624,0,0,1,1.177.4,1.78,1.78,0,0,1,0,2.294Zm-.046-4.778h-2.234l-.467-8.439h3.168Z" transform="translate(-230.259 -11476.006)"></path></svg></div></div></div></div>
+  <div class="globals_flex__3XB_K local_main__3SMIh globals_flexDirection-column__1sqJF globals_width-8__K8PVg globals_p-4__djFdZ">
+    <div class="sc-jss-placeholder-error"><div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h2 class="govuk-heading-s govuk-!-margin-bottom-2">Scheme name and address</h2>
+      <p class="govuk-body govuk-!-margin-bottom-7">You have completed 3 of 8 sections.</p>
+
+    </div>
+  </div>
+</div>
+  </div>
+  </div>  
+
+
+
+
+
+
+</body>

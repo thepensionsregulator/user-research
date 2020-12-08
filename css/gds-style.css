@@ -1,5 +1,5 @@
 .govuk-link, a, .app-step-nav-header__title, .app-step-nav-related__link {
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -5,7 +5,7 @@
 }
 
 /*! Copyright (c) 2011 by Margaret Calvert & Henrik Kubel. All rights reserved. The font has been customised for exclusive use on gov.uk. This cut is not commercially available. */
-/* stylelint-disable-line scss/comment-no-loud  */
+/* stylelint-disable-line scss/comment-no-loud  
 @font-face {
   font-family: "GDS Transport";
   font-style: normal;
@@ -26,7 +26,7 @@
   .govuk-link, a, .app-step-nav-header__title, .app-step-nav-related__link {
     font-family: sans-serif;
   }
-}
+}*/
 
 .govuk-link:focus, a:focus, .app-step-nav-header__title:focus, .app-step-nav-related__link:focus {
   outline: 3px solid transparent;
@@ -103,7 +103,7 @@
 }
 
 .govuk-list {
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -211,7 +211,7 @@
 
 .govuk-heading-xl {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -258,7 +258,7 @@
 
 .govuk-heading-l {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+ /* font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -305,7 +305,7 @@
 
 .govuk-heading-m {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -352,7 +352,7 @@
 
 .govuk-heading-s {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 700;
@@ -398,7 +398,7 @@
 }
 
 .govuk-caption-xl {
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -432,7 +432,7 @@
 }
 
 .govuk-caption-l {
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -472,7 +472,7 @@
 }
 
 .govuk-caption-m {
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -485,7 +485,7 @@
 
 @media print {
   .govuk-caption-m {
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
   }
 }
 
@@ -506,7 +506,7 @@
 
 .govuk-body-l, .govuk-body-lead {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -552,7 +552,7 @@
 
 .govuk-body-m, .govuk-body, p {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -598,7 +598,7 @@
 
 .govuk-body-s {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+ /* font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -617,7 +617,7 @@
 
 @media print {
   .govuk-body-s {
-    font-family: sans-serif;
+   /* font-family: sans-serif*/
   }
 }
 
@@ -644,7 +644,7 @@
 
 .govuk-body-xs {
   color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
+  /*font-family: "GDS Transport", arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;

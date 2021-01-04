@@ -6,7 +6,7 @@
   border-radius: 50%;
 }
 .loader {
-  color: #ffffff;
+  color: #7ad123;
   font-size: 11px;
   text-indent: -99999em;
   margin: 55px auto;
@@ -26,7 +26,7 @@
 .loader:before {
   width: 5.2em;
   height: 10.2em;
-  background: #0dc5c1;
+  background: #ffffff;
   border-radius: 10.2em 0 0 10.2em;
   top: -0.1em;
   left: -0.1em;
@@ -38,7 +38,7 @@
 .loader:after {
   width: 5.2em;
   height: 10.2em;
-  background: #0dc5c1;
+  background: #ffffff;
   border-radius: 0 10.2em 10.2em 0;
   top: -0.1em;
   left: 4.9em;
@@ -47,10 +47,15 @@
   -webkit-animation: load2 2s infinite ease;
   animation: load2 2s infinite ease;
 }
+  
+  
 .loader img {
-    margin: 10px 0px 0px -10px;
-    width: 70px;
+  margin: -140px 0px 0px 200px; 
+  position: absolute; 
+  z-index: 5; 
+  width: 80px
   }
+  
 .loader_position {
   margin: 0 auto;
   position: absolute;
@@ -68,7 +73,6 @@ h3{
   color: #3D3D3D; 
   text-align: center;
 }
-
 @-webkit-keyframes load2 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -90,13 +94,12 @@ h3{
   }
 }
 
+
+
 </style>
 </head>
 
 <body>
-<div class="loader_position">
-<div class="loader"><img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"  /></div>
-<h3>Loading...</h3>
-</div>
-
+<div class="loader">Loading...</div>
+<img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg" />
 </body>

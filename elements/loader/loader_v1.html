@@ -17,8 +17,13 @@
   animation: spin 2s linear infinite; 
   margin: 0 auto;
 }
+    
+.loader img {
+    margin: 10px 0px 0px -10px;
+    width: 70px;
+  }
   
-.loader .position {
+.loader_position {
   margin: 0 auto;
   position: absolute;
   top: 50%; left: 50%;
@@ -26,11 +31,7 @@
   transform: translateY(-50%);
   }
 
-  
-  .loader img {
-    margin: 10px 0px 0px -10px;
-    width: 70px;
-  }
+
   
 /* Safari */
 @-webkit-keyframes spin {
@@ -57,9 +58,10 @@ h3 {
   
 <body>
 
-<div class="loader position"><img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"  /></div>
-
-<h3>Loading...</h3>
+<div class="loader_position">
+  <div class="loader position"><img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"  /></div>
+  <h3>Loading...</h3>
+</div>
 
 </body>
 </html>

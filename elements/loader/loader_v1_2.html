@@ -46,15 +46,7 @@
   transform-origin: 0.1em 5.1em;
   -webkit-animation: load2 2s infinite ease;
   animation: load2 2s infinite ease;
-}
-  
-  
-.loader_icon img {
-  margin: -140px 0px 0px 22px; 
-  position: absolute; 
-  z-index: 5; 
-  width: 80px; 
-  }
+}  
   
 .loader_position {
   margin: 0 auto;
@@ -65,9 +57,14 @@
   width: 150px;
   height: 200px;
   }
-
-
-
+  
+.loader_position img {
+  margin: -140px 0px 0px 22px; 
+  position: absolute; 
+  z-index: 5; 
+  width: 80px; 
+  }
+  
 h3{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -102,6 +99,10 @@ h3{
 </head>
 
 <body>
-<div class="loader">Loading...</div>
-<div class="loader_icon"><img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"/></div>
+ <div class="loader_position"> 
+  <div class="loader">Loading...</div>
+  <img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"/>
+  <h3>Loading...</h3>
+ </div>
+
 </body>

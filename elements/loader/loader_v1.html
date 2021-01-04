@@ -6,9 +6,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   
 <style>
-body {
-  margin-top: 40%
-  }
   
 .loader {
   border: 12px solid #ededed;
@@ -20,6 +17,15 @@ body {
   animation: spin 2s linear infinite; 
   margin: 0 auto;
 }
+  
+.loader .position {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%; left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+
   
   .loader img {
     margin: 10px 0px 0px -10px;
@@ -51,7 +57,7 @@ h3 {
   
 <body>
 
-<div class="loader"><img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"  /></div>
+<div class="loader position"><img src="https://thepensionsregulator.github.io/user-research/elements/loader/img/TPR-Magnify.svg"  /></div>
 
 <h3>Loading...</h3>
 

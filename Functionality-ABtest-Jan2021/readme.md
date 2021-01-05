@@ -18,6 +18,11 @@ areas of the return indicated and will have instructions as they move through th
   <li>Xxxxx</li>
 </ol></p>
 
+<h3>Supporting Documentation</h3>
+<p><b>GDS task list pages:</b> https://design-system.service.gov.uk/patterns/task-list-pages/</p>
+<p><b>GDS Questions</b> https://design-system.service.gov.uk/patterns/question-pages/</p>
+
+
 <h2>FINDINGS</h2>
 
 These will follow after the test towards the end of January
@@ -28,7 +33,4 @@ These will follow after the test towards the end of January
 These will follow after the test towards the end of January/Feburary
 
 
-<h2>Supporting Documentation</h2>
-<p><b>GDS task list pages:</b> https://design-system.service.gov.uk/patterns/task-list-pages/</p>
-<p><b>GDS Questions</b> https://design-system.service.gov.uk/patterns/question-pages/</p>
 

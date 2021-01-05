@@ -1,4 +1,7 @@
-INTRODUCTION
+<h1>Functionality A/B test</h1>
+<hr>
+
+<h2>INTRODUCTION</h2>
 
 This A/B test has been set up to provide research on the functionality of the current build after the recommendations on the 
 DWP report in December.
@@ -8,11 +11,11 @@ The basic structure of (A) will mimac the full user journey of the current build
 using the GDS task list approach. Both probes have been built to push the test subject/user through both journeys 
 in a certain direction, only filling in specific areas.
 
-FINDINGS
+<h2>FINDINGS</h2>
 
 These will follow after the test towards the end of January
 
 
-RECOMMENDATIONS 
+<h3>RECOMMENDATIONS</h3> 
 
 These will follow after the test towards the end of January/Feburary

@@ -8,7 +8,7 @@ The basic structure of (A) will mimac the full user journey of the current build
 using the GDS task list approach. Both probes have been built to push the test subject/user through both journeys 
 in a certain direction, only filling in specific areas.</p>
 
-<q>Quote from section of the report where DWP speak about the task list and also moving towards question by question</q>
+<blockquote>Quote from section of the report where DWP speak about the task list and also moving towards question by question</blockquote>
 
 <h3>What are we looking for</h3>
 <ol>

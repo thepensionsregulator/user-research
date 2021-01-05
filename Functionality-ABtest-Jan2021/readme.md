@@ -1,18 +1,4 @@
-<html>
-<head>
-<style>
-h1 {
-  font-family: open sans, sans serif;
-  font-size: 28px;
-  font-weight: 600;
-  }
-</style>
-  
-</head>  
-  
-<body>
-  
-  <h1>INTRODUCTION</h1>
+INTRODUCTION
 
 This A/B test has been set up to provide research on the functionality of the current build after the recommendations on the 
 DWP report in December.

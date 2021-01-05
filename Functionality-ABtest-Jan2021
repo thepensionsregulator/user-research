@@ -1,0 +1,7 @@
+This A/B test has been set up to provide research on the functionality of the current build after the recommendations on the 
+DWP report in December.
+
+The test will compare the GDS/DWP task list approach including breakdown forms into further steps against the current functionality. 
+The basic structure of (A) will mimac the full user journey of the current build which we will test against an alternative (B) version 
+using the GDS task list approach. Both probes have been built to push the test subject/user through both journeys 
+in a certain direction, only filling in specific areas.

@@ -19,8 +19,8 @@ areas of the return indicated and will have instructions as they move through th
 </ol></p>
 
 <h3>Supporting Documentation</h3>
-<b>GDS task list pages:</b> https://design-system.service.gov.uk/patterns/task-list-pages/
-<b>GDS Questions</b> https://design-system.service.gov.uk/patterns/question-pages/
+<p><b>GDS task list pages:</b> https://design-system.service.gov.uk/patterns/task-list-pages/</p>
+<p><b>GDS Questions</b> https://design-system.service.gov.uk/patterns/question-pages/</p>
 
 
 <h2>FINDINGS</h2>

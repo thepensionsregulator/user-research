@@ -1,4 +1,4 @@
-<h1>User Research and Prototyping</h1>
+<h1>UX and UI for the Pensions Regulator</h1>
 
 <p>Consisting of prototypes and probes for the Pensions Regulators User Research Center and and design and development of widgets/components.</p>
 

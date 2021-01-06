@@ -54,11 +54,13 @@ a:link {
 
 .user-tests {
   padding: 20px;
+  margin: 10px;
 }
 
 .prototype {
   border: 1px solid #cacaca;
   border-radius: 15px; 
+ 
 }
 
 .img-container {

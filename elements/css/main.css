@@ -95,7 +95,7 @@ background-colour: #3d3d3d;
 
 @media screen and (max-width: 991px) {
 
-  .tablet-grid-container {
+  .grid-container {
     display: grid;
     grid-gap: 28px;
     grid-template-column: auto auto auto auto auto auto auto auto;
@@ -105,7 +105,7 @@ background-colour: #3d3d3d;
 
 @media screen and (max-width: 767px) {
 
-  .mobile-grid-container {
+  .grid-container {
     display: grid;
     grid-gap: 16px;
     grid-template-column: auto auto auto auto;

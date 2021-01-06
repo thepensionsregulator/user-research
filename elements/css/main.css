@@ -32,7 +32,8 @@ a:link {
  text-decoration: underline;
 }
 
-header {
+header img {
+  width: 100%;
 }
 
 .intro {

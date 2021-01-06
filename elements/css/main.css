@@ -128,27 +128,27 @@ background-colour: #3d3d3d;
 }
 
 .col1 {
-  gird-column-start: 1;
+  gird-column-start: 0;
   grid-column-end: 12;
 }
 
 .col2 {
-  gird-column-start: 1;
+  gird-column-start: 0;
   grid-column-end: 6;
 }
 
 .col3 {
-  gird-column-start: 1;
+  gird-column-start: 0;
   grid-column-end: 4;
 }
 
 .col4 {
-  gird-column-start: 1;
+  gird-column-start: 0;
   grid-column-end: 3;
 }
 
 .col1-3 {
-  gird-column-start: 1;
+  gird-column-start: 0;
   grid-column-end: 8;
 }
 

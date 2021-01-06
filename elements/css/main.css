@@ -47,7 +47,26 @@ a:link {
 }
 
 .user-tests {
+  border: 1px solid;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
 }
+
+.prototype {
+  width: 100%;
+  margin: 3px;
+  corner-radius: 5px;
+  height: 45%;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.prototype img {
+  width: 100%;
+  height: auto;
+}
+
 
 .button {
   corner-radius: 10px;

@@ -32,13 +32,13 @@ a:link {
  text-decoration: underline;
 }
 
-.header {
+.banner {
   width: 100%;
   margin: 0 auto;
 }
 
-.header img {
-  width: 100%;
+.banner img {
+  width: 55%;
 }
 
 .intro {

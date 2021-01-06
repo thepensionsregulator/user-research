@@ -47,7 +47,7 @@ a:link {
 }
 
 .intro {
-  padding: 20px;
+  padding: 0px 40px 0px 40px;
   border-radius: 10px;
   margin: 100px 20px 20px 100px;
 }
@@ -123,8 +123,6 @@ background-colour: #3d3d3d;
   display: grid;
   grid-gap: 30px;
   grid-template-column: auto auto auto auto auto auto auto auto auto auto auto auto;
-  max-width: 1440px;
-  width: 100%;
  /* margin: 0px 165px 0px 165px;*/
 }
 

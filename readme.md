@@ -1,4 +1,4 @@
-<h1>User Research and Prototyping for the Pensions Regulator</h1>
+<h1>User Research and Prototyping</h1>
 
 <p>Introdouction not sure yet....Here you will find xxxx....</p>
 

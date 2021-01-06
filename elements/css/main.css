@@ -122,35 +122,29 @@ background-colour: #3d3d3d;
 .container {
   display: grid;
   grid-gap: 30px;
-  grid-template-column: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
  /* margin: 0px 165px 0px 165px;*/
-  border: solid 1px blue;
 }
 
 .col1 {
   gird-column-start: 1;
   grid-column-end: 13;
-  border: solid 1px pink;
 }
 
 .col2 {
   gird-column-start: 1;
   grid-column-end: 6;
-    border: solid 1px pink;
-
 }
 
 .col3 {
   gird-column-start: 1;
   grid-column-end: 4;
-    border: solid 1px pink;
 
 }
 
 .col4 {
   gird-column-start: 1;
   grid-column-end: 3;
-    border: solid 1px pink;
 
 }
 

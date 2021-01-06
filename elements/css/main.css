@@ -128,18 +128,14 @@ background-colour: #3d3d3d;
   display: grid;
   grid-gap: 30px;
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
- /* margin: 0px 165px 0px 165px;*/
+  margin: 0px 165px 0px 165px;
 }
 
 .container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
 }
-
 
 .col1 {
   grid-column-start: 1;

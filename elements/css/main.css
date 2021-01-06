@@ -53,13 +53,17 @@ a:link {
 }
 
 .user-tests {
-  border: 1px solid;
   width: 100%;
   height: 100%;
   padding: 5px;
 }
 
 .prototype {
+  border: 1px solid #cacaca;
+  border-radius: 15px; 
+}
+
+.img-container {
   width: 100%;
   margin: 3px;
   corner-radius: 5px;
@@ -68,7 +72,7 @@ a:link {
   padding: 5px;
 }
 
-.prototype img {
+.img-container img {
   width: 100%;
   height: auto;
 }

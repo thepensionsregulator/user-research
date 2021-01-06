@@ -92,12 +92,45 @@ background-colour: #3d3d3d;
 
 /*TPR Grid*/
 
-.grid-container {
+.container {
   display: grid;
   grid-gap: 30px;
   grid-template-column: auto auto auto auto auto auto auto auto auto auto auto auto;
   margin: 165px;
 }
+
+.col1 {
+  gird-column-start: 1;
+  grid-column-end: 12;
+}
+
+.col2 {
+  gird-column-start: 1;
+  grid-column-end: 6;
+}
+
+.col3 {
+  gird-column-start: 1;
+  grid-column-end: 4;
+}
+
+.col4 {
+  gird-column-start: 1;
+  grid-column-end: 3;
+}
+
+.col1-3 {
+  gird-column-start: 1;
+  grid-column-end: 8;
+}
+
+.col3-4 {
+  gird-column-start: 1;
+  grid-column-end: 9;
+}
+
+
+
 
 @media screen and (max-width: 991px) {
 

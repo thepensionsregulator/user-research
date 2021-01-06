@@ -133,6 +133,10 @@ background-colour: #3d3d3d;
   padding: 20px 0;
 }
 
+div {
+    display: inline;
+}
+
 .col1 {
   grid-column-start: 1;
   grid-column-end: 14;

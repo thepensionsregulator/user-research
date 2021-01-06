@@ -1,4 +1,4 @@
-<h1>User Research and User Interface Design for the Pensions Regulator</h1>
+<h1>User Research and Interface Design</h1>
 
 <p>Consisting of prototypes and probes for the Pensions Regulators User Research Center and and design and development of widgets/components.</p>
 

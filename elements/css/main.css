@@ -43,6 +43,7 @@ a:link {
 
 .intro {
   padding: 10px;
+  corner-radius: 10px;
 }
 
 .user-tests {

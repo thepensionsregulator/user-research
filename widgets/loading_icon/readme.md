@@ -1,5 +1,5 @@
 <h1>Animated loading icon</h1>
-<p>Different css animated designs created for the SSRA portals loading icon</p>
+<p>Different css animated concepts created for the SSRA portals loading icon</p>
 
 <h2>Supporting documentation</h2>
 <ul>

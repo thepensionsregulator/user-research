@@ -1,4 +1,4 @@
-<h1>The Pensions Regulators User Research Center.</h1>
+<h1>User Research Center or the Pensions Regulator.</h1>
 
 <p>Here you fill find prototypes and probes used to contduct research for the Pensions Regulator.</p>
 

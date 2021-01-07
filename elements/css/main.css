@@ -57,32 +57,30 @@ a:link {
 }
 
 .intro {
-  padding: 0px 40px 0px 40px;
+  padding: 80px 80px 80px 80px;
   border-radius: 10px;
-  margin: 80px 20px 20px 20px;
+  margin: 60px 0px 20px 0px;
 }
 
 .user-tests {
   border: 1px solid #cacaca;
   padding: 20px;
+  width: 178px;  
+  border-radius: 10px;
 }
 
 .prototype {
-  border-radius: 5px; 
-}
-
-.prototype {
-  width: 98%;
+  width: 100%;
   margin: 0 auto;
-  border-radius: 5px;
-  height: 200px;
+  border-radius: 10px;
+  height: 250px;
   overflow: hidden;
 }
 
 .prototype img {
-  width: 95%;
+  width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 

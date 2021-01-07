@@ -42,17 +42,13 @@ a:link {
   margin: 0 auto;
 }
 
-.banner img {
-  width: 55%;
-}
-
 .intro {
   padding: 0px 40px 0px 40px;
   border-radius: 10px;
   margin: 80px 20px 20px 20px;
 }
 
-.user-tests {
+/*.user-tests {
   padding: 20px;
   margin: 10px;
 }
@@ -74,7 +70,7 @@ a:link {
   width: 95%;
   height: auto;
   border-radius: 5px;
-}
+}*/
 
 
 .button {

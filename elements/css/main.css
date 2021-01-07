@@ -66,6 +66,7 @@ a:link {
   border: 1px solid #cacaca;
   width: 190px;  
   border-radius: 5px;
+  text-align: center;
 }
 
 .prototype {

@@ -67,6 +67,7 @@ a:link {
   width: 190px;  
   border-radius: 5px;
   text-align: center;
+  overflow: hidden;
 }
 
 .prototype {
@@ -89,6 +90,7 @@ a:link {
   border: 1px solid #cacaca;
   border-radius: 5px;
   padding: 5px;
+  margin: 0px 0px -2px -2px;
 }
 
 

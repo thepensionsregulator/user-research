@@ -62,7 +62,7 @@ a:link {
   margin: 60px 0px 20px 0px;
 }
 
-.user-tests {
+.user-test {
   border: 1px solid #cacaca;
   padding: 20px;
   width: 178px;  
@@ -243,6 +243,8 @@ For when we get more tests and the user testing grid is more then one row eg: be
     float: left;
    }
 }
+
+
 
 
 

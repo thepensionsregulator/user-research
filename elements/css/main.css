@@ -49,11 +49,11 @@ a:link {
 
 .banner {
   width: 106%;
-  margin: 0px -5px 0px -5px;
+  margin: -10px -5px 0px -5px;
 }
 
 .banner img {
-  width: 100%
+  width: 80%
 }
 
 .intro {

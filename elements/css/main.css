@@ -95,7 +95,6 @@ a:link {
 
 
 .button {
-  border-radius: 5x;
   padding: 5px 20px;
   display: inline-block;
   font-size: 16px;
@@ -103,8 +102,9 @@ a:link {
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: #483b8b; /*TPR purple*/
-  color: #333333;
+  color: #ffffff;
   margin: 0 auto;
+  border-radius: 5x;
 }
 
 .button:hover {

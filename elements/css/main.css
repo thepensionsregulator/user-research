@@ -93,6 +93,8 @@ a:link {
   text-align: center;
   transition-duration: 0.4s;
   cursor: pointer;
+  background-color: #483b8b; /*TPR purple*/
+  color: #333333;
 }
 
 .button:hover {

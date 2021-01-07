@@ -63,7 +63,7 @@ a:link {
 }
 
 .img-container {
-  /*width: 98%;*/
+  width: 98%;
   margin: 0 auto;
   border-radius: 10px;
   height: 200px;
@@ -71,7 +71,7 @@ a:link {
 }
 
 .img-container img {
-  /*width: 95%;*/
+  width: 95%;
   height: auto;
   border-radius: 5px;
 }

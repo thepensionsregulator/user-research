@@ -101,6 +101,7 @@ a:link {
   cursor: pointer;
   background-color: #483b8b; /*TPR purple*/
   color: #333333;
+  margin: 0 auto;
 }
 
 .button:hover {

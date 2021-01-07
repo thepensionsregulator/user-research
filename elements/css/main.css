@@ -108,7 +108,7 @@ a:link {
   background-color: #483b8b; /*TPR purple*/
   color: #ffffff;
   margin: 0 auto;
-  border-radius: 5x;
+  border-radius: 5px;
 }
 
 .button:hover {

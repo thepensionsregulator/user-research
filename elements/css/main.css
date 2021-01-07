@@ -124,7 +124,6 @@ background-colour: #3d3d3d;
 
 .container {
   display: grid;
-  display: inline;
   grid-gap: 30px;
   grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px;
   margin: 0px 165px 0px 165px;

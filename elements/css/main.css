@@ -65,7 +65,7 @@ a:link {
 .user-test {
   border: 1px solid #cacaca;
   padding: 5px;
-  width: 178px;  
+  width: 175px;  
   border-radius: 10px;
 }
 
@@ -131,7 +131,7 @@ background-colour: #3d3d3d;
 
 .wrapper {
   max-width: 1440px;
-  margin: 0px 165px 0px 165px;
+  margin: 15px 165px 15px 165px;
 }
 
 .grid-item {
@@ -176,12 +176,16 @@ For when we get more tests and the user testing grid is more then one row eg: be
   float: left;
 }
 
+.clear {
+  clear: both;
+}
+
 /* Tablet  Grid */
 
 @media screen and (max-width: 991px) {
   .wrapper {
     max-width: 991px;
-    margin: 0px 28px 0px 28px;
+    margin: 14px 28px 14px 28px;
   } 
 
   .grid-item {
@@ -215,7 +219,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
 @media screen and (max-width: 991px) {
   .wrapper {
     max-width: 767px;
-    margin: 0px 16px 0px 16px;
+    margin: 8px 16px 8px 16px;
   } 
 
   .grid-item {

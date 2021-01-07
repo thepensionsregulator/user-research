@@ -134,7 +134,7 @@ background-colour: #3d3d3d;
   margin: 0px 165px 0px 165px;
 }
 
-.grid {
+.grid-item {
   margin-right: 30px;
   float: left;
 }
@@ -184,7 +184,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
     margin: 0px 28px 0px 28px;
   } 
 
-  .grid {
+  .grid-item {
     margin-right: 28px;
     float: left;
   }
@@ -218,7 +218,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
     margin: 0px 16px 0px 16px;
   } 
 
-  .grid {
+  .grid-item {
     margin-right: 16px;
     float: left;
   }

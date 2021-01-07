@@ -39,7 +39,11 @@ a:link {
 
 .banner {
   width: 100%;
-  margin: 0 auto;
+  margin: -1px -1px 0px -1px;
+}
+
+.banner img {
+  width: 100%
 }
 
 .intro {

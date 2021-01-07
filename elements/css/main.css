@@ -85,11 +85,10 @@ a:link {
 
 
 .button {
-  corner-radius: 10px;
-  border: none;
+  border-radius: 5x;
   padding: 5px 20px;
   display: inline-block;
-  font-size: 19px;
+  font-size: 16px;
   text-align: center;
   transition-duration: 0.4s;
   cursor: pointer;

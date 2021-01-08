@@ -64,7 +64,7 @@ a:link {
 
 .user-test {
   border: 1px solid #cacaca;
-  width: 195px;  
+  /*width: 195px;*/ 
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
@@ -173,18 +173,18 @@ For when we get more tests and the user testing grid is more then one row eg: be
   float: left;
 }
 
-.col-3 .grid-item {
+.col-2-3rds .grid-item {
   width: 540px;
+  float: left;
+}
+
+.col-3 .grid-item {
+  width: 255px;
   float: left;
 }
 
 .col-4 .grid-item {
   width: 255px;
-  float: left;
-}
-
-.col-2-3rds .grid-item {
-  width: 540px;
   float: left;
 }
 

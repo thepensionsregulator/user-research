@@ -93,7 +93,7 @@ a:link {
   width: 100%;
   border: 1px solid #cacaca;
   border-radius: 5px;
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
   margin: 0px 0px -2px -2px;
 }
 

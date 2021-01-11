@@ -169,7 +169,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
   float: right;
 }*/
 
-.col-1 .grid-item {
+/*.col-1 .grid-item {
   width: 1110px;
   float: left;
 }
@@ -192,12 +192,35 @@ For when we get more tests and the user testing grid is more then one row eg: be
 .col-12 .grid-item {
   width: 65px;
   float: left;
-}
+}*/
 
 .col-2-3rds .grid-item {
   width: 540px;
   float: left;
 }
+
+.col-1 .grid-item {
+  width: 100%;
+}
+
+.col-2 .grid-item {
+  width: 50%;
+  margin: 0px 30px 0px 0px;
+  float: left;
+}
+
+.col-3 .grid-item {
+  width: 34%;
+  margin: 0px 30px 0px 0px;
+  float: left;
+}
+
+.col-4 .grid-item {
+  width: 25%;
+  margin: 0px 30px 0px 0px;
+  float: left;
+}
+
 
 
 .clear {

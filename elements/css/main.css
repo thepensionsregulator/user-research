@@ -170,7 +170,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
 }*/
 
 .col-1 .grid-item {
-  width: 1100px;
+  width: 1110px;
   float: left;
 }
 
@@ -180,7 +180,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
 }
 
 .col-3 .grid-item {
-  width: 255px;
+  width: 350px;
   float: left;
 }
 

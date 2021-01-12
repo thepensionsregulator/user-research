@@ -205,7 +205,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
 }
 
 .col-2 .grid-item {
-  width: 52%;
+  width: 48%;
   margin: 0px 30px 0px 0px;
   float: left;
 }

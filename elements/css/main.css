@@ -115,7 +115,12 @@ a:link {
   background-color: #483b8b; /*TPR mid purple*/
 }
 
-.button:visited {
+.button a:link {
+ color: #ffffff;
+ text-decoration: underline;
+}
+
+.button a:visited {
  color: #ffffff;
  text-decoration: underline;
 }

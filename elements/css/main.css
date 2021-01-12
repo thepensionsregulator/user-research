@@ -75,8 +75,15 @@ a:link {
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
-  height: 200px;
   overflow: hidden;
+}
+
+.col-2 .prototype {
+  height: 120px;
+}
+
+.col-4 .prototype {
+  height: 400px;
 }
 
 .prototype img {

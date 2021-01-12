@@ -204,19 +204,19 @@ For when we get more tests and the user testing grid is more then one row eg: be
 }
 
 .col-2 .grid-item {
-  width: 50%;
+  width: 53%;
   margin: 0px 30px 0px 0px;
   float: left;
 }
 
 .col-3 .grid-item {
-  width: 34%;
+  width: 30%;
   margin: 0px 30px 0px 0px;
   float: left;
 }
 
 .col-4 .grid-item {
-  width: 25%;
+  width: 20%;
   margin: 0px 30px 0px 0px;
   float: left;
 }

@@ -117,12 +117,12 @@ a:link {
 
 .button a:link {
  color: #ffffff;
- text-decoration: underline;
+ text-decoration: none;
 }
 
 .button a:visited {
  color: #ffffff;
- text-decoration: underline;
+ text-decoration: none;
 }
 
 

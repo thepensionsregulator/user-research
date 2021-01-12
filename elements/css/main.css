@@ -200,12 +200,12 @@ For when we get more tests and the user testing grid is more then one row eg: be
 }*/
 
 .col-1 .grid-item {
-  width: 100%;
+  width: 98%;
   max-width: 1110px;
 }
 
 .col-2 .grid-item {
-  width: 48%;
+  width: 45%;
   margin: 0px 30px 0px 0px;
   float: left;
 }

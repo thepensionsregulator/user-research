@@ -48,8 +48,8 @@ a:link {
 }
 
 .banner {
-  width: 106%;
-  margin: -10px -5px 0px -5px;
+  width: 110%;
+  margin: -10px -5px 0px -10px;
 }
 
 .banner img {
@@ -90,11 +90,11 @@ a:link {
 
 .user-test-footer {
   background-color: #ededed;
-  width: 100%;
+  width: 102%;
   border: 1px solid #cacaca;
   border-radius: 5px;
   padding: 15px 0px 15px 0px;
-  margin: 0px 0px -2px -2px;
+  margin: 0px 0px -2px -3px;
 }
 
 

@@ -192,19 +192,20 @@ For when we get more tests and the user testing grid is more then one row eg: be
 .col-12 .grid-item {
   width: 65px;
   float: left;
-}*/
+}
 
 .col-2-3rds .grid-item {
   width: 540px;
   float: left;
-}
+}*/
 
 .col-1 .grid-item {
   width: 100%;
+  max-width: 1110px;
 }
 
 .col-2 .grid-item {
-  width: 53%;
+  width: 52%;
   margin: 0px 30px 0px 0px;
   float: left;
 }

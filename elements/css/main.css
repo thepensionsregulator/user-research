@@ -69,6 +69,7 @@ a:link {
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
+  z-index: 2;
 }
 
 .prototype {

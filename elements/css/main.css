@@ -136,6 +136,21 @@ a:link {
  text-decoration: none;
 }
 
+.button .secondary {
+  background-color: #ffffff; 
+  color: #7469ba;
+}
+
+.button .secondary a:link {
+ color: #7469ba;
+ text-decoration: none;
+}
+
+.button .secondary a:visited {
+ color: #7469ba;
+ text-decoration: none;
+}
+
 
 .footer {
   width: 100%;

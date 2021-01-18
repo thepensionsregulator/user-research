@@ -66,7 +66,7 @@
 
 
   <div class="width">
-  <h1 style="margin-left: 30px">Asset-Breakdown</h1>
+  <h1 style="margin-left: 30px">Date of Valuation of assets</h1>
   <hr>
   
 </div>    
@@ -82,7 +82,7 @@
   The sum of the asset breakdown items must equal 100%</p>
   
 <fieldset> 
-    <div class="boxed" id="dderror">
+    <div id="dderror">
       <h3 style="margin: 5px 0 5px 0; padding: 0px; "> Date of Valuation of assets</h3>
     <p style="margin: 5px 0 5px 0; padding: 0px">For example, 31 3 2019 or 31 03 2019</p>  
       <p style="color: red; display: none;" id="errorAB">Add error message here</p>
@@ -319,7 +319,7 @@ qty5.onfocus = function() {
   }
 }  
                          
-                    qty6.onblur = function() {
+qty6.onblur = function() {
   if (!qty6.value.length > 0) { // not email
     qty6.classList.add('invalid');
     error6.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
@@ -488,7 +488,9 @@ quoted3.onfocus = function() {
     this.classList.remove('invalid');
     error16.innerHTML = "";
   }
-}     
+}  
+  
+  
  
 
                           

@@ -342,11 +342,11 @@
        <p><label>Fixed interest government bonds</label>
                                                            <div id="error11" class="error"  style="margin: 0px"></div>
 
-          <input  type="text" name="bonds"  id="bonds1" oninput="Totals()" class="hvr-pop" style="float: left;" autocomplete="off" required>  &nbsp %</p>
+          <input  type="text" name="bonds"  id="bonds1" oninput="Totals()" onkeypress="showdiv()" class="hvr-pop" style="float: left;" autocomplete="off" required>  &nbsp %</p>
            <div style="clear:both"></div>
                                                                          
 
-           <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help11');" >Help with Fixed interest government bonds</a></p>
+          <!-- <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help11');" >Help with Fixed interest government bonds</a></p>-->
   
             <div  class="help" id="help11" style="display: none">
     
@@ -938,7 +938,7 @@ qty3.onfocus = function() {
 }
                          
                          
-                         qty4.onblur = function() {
+qty4.onblur = function() {
   if (!qty4.value.length > 0) { // not email
     qty4.classList.add('invalid');
     error4.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
@@ -1140,6 +1140,11 @@ quoted3.onfocus = function() {
   }
 }     
  
+                          
+function showdiv() {
+  document.getElementById("help11").style.display = "block";
+}
+
 
                           
      

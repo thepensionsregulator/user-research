@@ -310,13 +310,13 @@
        <div id="error8" class="error" style="margin: 0px"></div>
 
                          <p  style="margin-top: -5px">If you enter a percentage greater than zero here, you must complete the Bond categories below.</p>
-       <input type="text" name="qty"  id="qty8" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty8" oninput="findTotal()" onkeypress="showdiv()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
           <div style="clear:both"></div>
 
             
       
       
-      <p style="margin: 20px 0px 10px 0px; class="help"><a href="#/" onclick="toggle_visibility('help8');">Help with Bonds</a></p>
+      <!--<p style="margin: 20px 0px 10px 0px; class="help"><a href="#/" onclick="toggle_visibility('help8');">Help with Bonds</a></p>-->
       
      <div  class="help" id="help8" style="display: none">
     <div style="width: 4%; float: left; padding: 0px; margin: 0px 10px 40px 0px; height: 400px">
@@ -1142,7 +1142,7 @@ quoted3.onfocus = function() {
  
                           
 function showdiv() {
-  document.getElementById("help11").style.display = "block";
+  document.getElementById("help8").style.display = "block";
 }
 
 

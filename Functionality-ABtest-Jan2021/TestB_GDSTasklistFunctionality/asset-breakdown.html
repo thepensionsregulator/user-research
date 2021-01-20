@@ -466,7 +466,7 @@ Include relevant components of multi-asset funds and insurance funds.
 
             <p style="margin-top: -5px">If you enter a percentage greater than zero here, you must complete the Equity categories below.</p>
 
-       <input type="text" name="qty"  id="qty9" oninput="findTotal()" onkeypress="showdiv(.help9)" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty9" oninput="findTotal()" onkeypress="showdiv()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
          <div style="clear:both"></div>
 
                  <!--    <p style="margin: 0px 0px 40px 0px; class="help"><a href="#/" onclick="toggle_visibility('help9');">Help with Equities</a></p>-->
@@ -478,57 +478,6 @@ Include relevant components of multi-asset funds and insurance funds.
   </div>
     
    <div style="width: 80%; float: left;">
- <p >Insurance fund investments may include pooled funds, deposit administration contracts, with-profits contracts and similar.</p>
-<p>For such investments, schemes are encouraged to obtain a detailed breakdown between asset categories as at (or near to) the relevant scheme accounts date. Each component should be included within the relevant categories. In the few instances where this breakdown is not available, the amount should be included in the Other category. 
-</p>
-</div>
-  <div style="clear:both"></div>
-                         </div>-->
-
-            <label  style="margin-top: 30px">Other</label>
-     <div id="error10" class="error" style="margin: 0px"></div>
-
-       <input type="text" name="qty"  id="qty10" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
-         <div style="clear: both"></div>
-
-                     <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help10');">Help with other</a></p>
-
-      
-          <div  class="help" id="help10" style="display: none">
-    
-   <div style="width: 80%; float: left;  margin: 0px 0px 40px 0px; border-left: 6px solid #CACACA; padding-left: 30px">
-                                        <p>Some assets do not obviously fall into any of the above categories. </p>
-
-<p>A general description of the key characteristics of each asset category has been provided so that in such circumstances, the trustees, in conjunction with their investment advisor or asset manager (unless the trustees have sufficient expertise) can apply judgement as to which category best reflects that asset’s risk characteristics – this may involve dividing the asset amongst more than one category.
-                                        </p>
-<p>If assets cannot be assigned in this way, they should be recorded in this category.
-
-</p>
-
-
-</div>
-  <div style="clear:both"></div>
-                         </div>
-
-      
-                   <hr></hr>
-                         <div style="height: 150px">
-  <h3 style="margin:0px 0px 10px 0px">Asset breakdown totals</h3>
-
-<p style="margin:0px 0px 10px 0px">This total automatically updates as you type.</p>
-   
- <div id="alert" style="display: none; color: #A91717; margin:0px 0px 10px 0px">Totals must add up to 100%</div>
-
-<output type="text" name="total" id="total" class="hvr-pop" readonly placeholder="Must total 100%"></output>%
-                                                                                                  </div>
-  </div>
-</fieldset>     
-
-                                                                                                
-                                                                                                            
-                                                                                                            
- <fieldset class="boxed"> 
-      
        <h3 style="margin: 5px 0px 5px 0px; padding: 0px">Equity categories</h3>
        <p style="margin: 5px 0 30px 0;  padding: 0px">If any equities are held, indicate the % split over the following categories. The following three fields must add up to 100%.</p>
 
@@ -623,6 +572,54 @@ Include relevant components of multi-asset funds and insurance funds.
 </div>
                                                          
 </fieldset>
+</p>
+</div>
+  <div style="clear:both"></div>
+                         </div>-->
+
+            <label  style="margin-top: 30px">Other</label>
+     <div id="error10" class="error" style="margin: 0px"></div>
+
+       <input type="text" name="qty"  id="qty10" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+         <div style="clear: both"></div>
+
+                     <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help10');">Help with other</a></p>
+
+      
+          <div  class="help" id="help10" style="display: none">
+    
+   <div style="width: 80%; float: left;  margin: 0px 0px 40px 0px; border-left: 6px solid #CACACA; padding-left: 30px">
+                                        <p>Some assets do not obviously fall into any of the above categories. </p>
+
+<p>A general description of the key characteristics of each asset category has been provided so that in such circumstances, the trustees, in conjunction with their investment advisor or asset manager (unless the trustees have sufficient expertise) can apply judgement as to which category best reflects that asset’s risk characteristics – this may involve dividing the asset amongst more than one category.
+                                        </p>
+<p>If assets cannot be assigned in this way, they should be recorded in this category.
+
+</p>
+
+
+</div>
+  <div style="clear:both"></div>
+                         </div>
+
+      
+                   <hr></hr>
+                         <div style="height: 150px">
+  <h3 style="margin:0px 0px 10px 0px">Asset breakdown totals</h3>
+
+<p style="margin:0px 0px 10px 0px">This total automatically updates as you type.</p>
+   
+ <div id="alert" style="display: none; color: #A91717; margin:0px 0px 10px 0px">Totals must add up to 100%</div>
+
+<output type="text" name="total" id="total" class="hvr-pop" readonly placeholder="Must total 100%"></output>%
+                                                                                                  </div>
+  </div>
+</fieldset>     
+
+                                                                                                
+                                                                                                            
+                                                                                                            
+      
 
 <input type="submit" id="register" value="Save and Continue" class="btn btn-primary" style="color: white; width: 200px"  />
 

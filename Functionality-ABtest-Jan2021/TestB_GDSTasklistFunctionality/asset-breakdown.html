@@ -304,161 +304,28 @@
   <div style="clear:both"></div>
                          </div>
 
-
+onkeypress="showdiv()"
        
             <label>Bonds</label>
        <div id="error8" class="error" style="margin: 0px"></div>
 
                          <p  style="margin-top: -5px">If you enter a percentage greater than zero here, you must complete the Bond categories below.</p>
-       <input type="text" name="qty"  id="qty8" oninput="findTotal()" onkeypress="showdiv()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty8" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
           <div style="clear:both"></div>
 
-            
+            <!--    <p style="margin: 20px 0px 10px 0px; class="help"><a href="#/" onclick="toggle_visibility('help8');">Help with Bonds</a></p>
       
-      
-      <!--<p style="margin: 20px 0px 10px 0px; class="help"><a href="#/" onclick="toggle_visibility('help8');">Help with Bonds</a></p>-->
-      
-     <div  class="help" id="help8" style="display: none; margin-top: 10px;">
-    <div style="width: 4%; float: left; padding: 0px; margin: 0px 10px 40px 0px; height: 400px">
+          <div  class="help" id="help8" style="display: none">
+    <div style="float: left; padding: 0px; margin: 0px 10px 40px 0px; height: 400px">
      <div style="border-left: 6px solid #CACACA; padding: 0; margin: 0;  height: 400px"></div>
   </div>
     
-   <div style=" width: 90%; float: left; margin: 0px 0px 40px px; ">
-                                                                  
-                                                                       
-       <h3 style="margin: 5px 0 5px 0; padding: 0px">Bond categories</h3>
-       <p style="margin: 5px 0 30px 0; padding: 0px">If bonds are held, indicate the % split over the following categories. These three fields must add up to 100%.</p>
-
-   <div style="float: left; padding: 0px; height: 450px; margin: 0px 10px 0px 0px;">
-     <div style="border-left: 6px solid white; height: 1px; padding: 0; margin: 0"></div>
-     <div id="alert4" style="display: none; border-left: 6px solid #A91717; height: 450px; padding: 0; margin: 0"></div>
-    </div>
-
-     <div style="float: left;  margin: -30px 0 30px 0" >
-                                                      
-                                                      
-       <p><label>Fixed interest government bonds</label>
-          <div id="error11" class="error"  style="margin: 0px"></div>
-
-          <input  type="text" name="bonds"  id="bonds1" oninput="Totals()" class="hvr-pop" style="float: left;" autocomplete="off" required>  &nbsp %</p>
-           <div style="clear:both"></div>
-                                                                         
-
-          <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help11');" >Help with Fixed interest government bonds</a></p>
-  
-            <div  class="help" id="help11" style="display: none">
-    
-   <div style="float: left; margin: 0px 0px 40px 0px; border-left: 6px solid #CACACA; padding-left: 30px">
-
-  
-<p>This category covers investments issued by a sovereign body that provide a series of known income payments at pre-determined points in time. There is, however, a risk that some or all of these payments may not be made should the sovereign body default on its obligation. </p>
-  
-  
-  <p>The values of such investments are sensitive to changes in interest rates and will typically have minimal or no sensitivity to credit spreads.
-
-<p>For most schemes, the majority of these will be UK government bonds (i.e. “gilts”). All overseas government bonds (e.g. US Treasury bonds, German bunds) and bonds issued by supranational organisations may also be included here. Bonds with explicit government guarantees should be classified along with government bonds.</p>
-
-<p>Include relevant components of multi-asset funds and insurance funds.</p>
-
-     
-     
-<div style="clear:both"></div>
-              
+   <div style="width: 80%; float: left; margin: 0px 0px 40px px; ">
+ <h3> If you enter a percentage greater than zero here, you must complete the Bond categories below.
+</h3>
 </div>
-              
-              
-              
-              
-     <p><label>Fixed interest non-government bonds</label>
-            <div id="error12" style="margin: 0px" class="error" ></div>
-
-       <input  type="text" name="bonds" id="bonds2" oninput="Totals()" class="hvr-pop" style="float: left" autocomplete="off" required> &nbsp % </p>
-    <div style="clear:both"></div>
-
-     <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help12');">Help with Fixed interest non-government bonds</a></p>
-
-    <div  class="help" id="help12" style="display: none">
-    
-   <div style="width: 80%; float: left; margin: 0px 0px 40px 0px; border-left: 6px solid #CACACA; padding-left: 30px">
-                                        
- <p>This category covers investments issued by a corporate body that provide a series of known income payments at pre-determined points in time. There is however a risk that some or all of these payments may not be received due to the corporate body defaulting on its obligation. The values of such investments are sensitive to changes in interest rates and credit spreads.</p>
-
-<p>Include UK and overseas corporate bonds and all levels of credit rating and debt-like investments. Investment managers may also refer to these as ‘credit’ mandates. </p>
-
-<ul>                                                                        <p>Assets that fall under this category include:</p>
-                                                                        <li>	investment grade corporate bonds</li>
-<li>	convertible bonds where they are classified as debt-like</li>
-<li>		asset-backed securities (ABS)</li>
-<li>		mortgage-backed securities (MBS) and</li>
-<ul>
-                                                                           <li>		alternative credit, which includes:</li>
-<li>	sub-investment grade (also known as high yield bonds)</li>
-<li>	distressed debt</li>
-<li>	subordinated debt</li>
-<li>		senior debt</li>
-<li>	mezzanine debt</li>
-<li>	leveraged loans</li>
-</ul>
-</ul>
-
-                                                                        <p>Include relevant components of multi-asset funds and insurance funds.</p>
-
-<p>This category can also include unrated investments where there is sufficient certainty in payment to be equivalent in risk and default profile to investment grade corporate bonds, such as ground rents or secure income alternatives. Similar assets with a significant inflation linked component could be allocated to Inflation-linked bonds. 
-</p>
-                                                                      
-                                                                                      <div style="clear:both"></div>
-                                                                                                             </div>
-
-
-
-
-       
-         <p>  <label>Inflation linked bonds</label>
-         <div id="error13" style="margin: 0px" class="error" ></div>
-
-       <input type="text" name="bonds"  id="bonds3" oninput="Totals()" class="hvr-pop" style="float: left" autocomplete="off" required> &nbsp  %</p>
-    <div style="clear:both"></div>
-
-             <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help13');">Help with Inflation linked bonds</a></p>
-
-  <div id="help13" style="display:none; margin-bottom: 40px"   class="help" >
-
-<p>This category covers investments that provide a series of inflation-linked income at pre-determined points in time. There is a risk that some or all of these payments may not be received due to the issuer defaulting on its obligations. The values of such investments are sensitive to changes in interest rates and inflation and will typically have minimal or no sensitivity to credit spreads.
-
-    </p>
-    <p>Include UK and overseas inflation/index-linked government bonds and inflation/index-linked corporate bonds. For most schemes, the majority of such bonds will be UK government bonds (‘index-linked gilts’) but may also be issued by overseas governments and supranational organisations. Schemes should also reflect holdings in inflation-linked corporate bonds in this category.
-    </p><p>
-Include relevant components of multi-asset funds and insurance funds.
-
-  </p>
   <div style="clear:both"></div>
-              
-</div>
-
- 
-  <div style="height: 180px">
-  
-                <hr></hr>
-  <h3>Bond categories totals</h3>
-
-<p style="margin:0px">This total automatically updates as you type.</p>
-                                                        
-<div id="alert3" style="display: none; color: #A91717">Totals must add up to 100%</div>
-
-<output type="text" name="totalbonds" id="totalbonds" class="hvr-pop" readonly placeholder="Must total 100%"></output>%
-
-                                                          
-                                                                  </div>
-                                                                                      <div style="clear:both"></div>
-                                                                                                             </div>
-                                                                                                             
-                                                                                                                                                                               </div>
-                                                                                      <div style="clear:both"></div>
-                                                                                                             </div>
-
-
-
-                         
+                         </div>-->
 
 
             <label style="margin-top: 30px">Equities</label>
@@ -469,9 +336,21 @@ Include relevant components of multi-asset funds and insurance funds.
        <input type="text" name="qty"  id="qty9" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
          <div style="clear:both"></div>
 
-<div style="clear:both"></div>
-                         </div>
-                     
+                 <!--    <p style="margin: 0px 0px 40px 0px; class="help"><a href="#/" onclick="toggle_visibility('help9');">Help with Equities</a></p>
+                                                                                                                        
+                                                                                                                        
+                                                                                                                            <div  class="help" id="help9" style="display: none">
+    <div style="float: left; padding: 0px; margin: 0px 10px 0px 25px; height: 300px">
+     <div style="border-left: 6px solid #CACACA; padding: 0; margin: 0;  height: 300px"></div>
+  </div>
+    
+   <div style="width: 80%; float: left;">
+ <p >Insurance fund investments may include pooled funds, deposit administration contracts, with-profits contracts and similar.</p>
+<p>For such investments, schemes are encouraged to obtain a detailed breakdown between asset categories as at (or near to) the relevant scheme accounts date. Each component should be included within the relevant categories. In the few instances where this breakdown is not available, the amount should be included in the Other category. 
+</p>
+</div>
+  <div style="clear:both"></div>
+                         </div>-->
 
             <label  style="margin-top: 30px">Other</label>
      <div id="error10" class="error" style="margin: 0px"></div>
@@ -512,25 +391,11 @@ Include relevant components of multi-asset funds and insurance funds.
   </div>
 </fieldset>     
 
-                                                                                                
-                                                                                                            
-                                                                                                            
-      
-
-<input type="submit" id="register" value="Save and Continue" class="btn btn-primary" style="color: white; width: 200px"  />
-
-
-  
-
-    </form>
-    
-</div>
-
-                                                                                                         </div>
-
-
-</div>
-  
+                                                                                                  
+                                                                                                  
+                                                                                                  
+                                                                                                  
+                                                                                                  
 <script>
 $(document).ready(function(){
     $('#dderror input[type="text"]').blur(function(){

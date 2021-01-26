@@ -4851,7 +4851,7 @@ p + .govuk-heading-s,
   left: 0;
   width: 40px;
   height: 40px;
-  border: 2px solid currentColor;
+  border: 2px solid #777777;
   border-radius: 50%;
   background: transparent;
 }
@@ -4863,7 +4863,7 @@ p + .govuk-heading-s,
   left: 10px;
   width: 0;
   height: 0;
-  border: 10px solid currentColor;
+  border: 10px solid  #777777;
   border-radius: 50%;
   opacity: 0;
   background: currentColor;

@@ -7,6 +7,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
 <style>
  body {font-family: 'Open Sans', sans-serif;
   }
@@ -28,9 +31,18 @@ h2 {
   line-height: 36px; 
   letter-spacing: 0em;
   color: #3d3d3d;
-
   }  
 
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px; 
+  letter-spacing: 0em;
+  color: #3d3d3d;
+  padding-top: 20px;
+  }    
+  
 p {
     font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -41,6 +53,17 @@ p {
 
   }
   
+ label {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px ;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #3d3d3d;
+
+  }
+ 
 a:visited {
   color: #3d3d3d;
   underline: none;
@@ -48,7 +71,7 @@ a:visited {
   
   
 li {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px ;
   font-weight: 400;
@@ -56,7 +79,10 @@ li {
   color: #3d3d3d;
 
   }
-  
+ label {
+  padding-top: 20px;
+  }
+   
 button {
   background-color: #0381A2;
   padding: 10px;
@@ -68,17 +94,40 @@ button:hover {
   background-color: #483B8B;
   }
   
-a:link{ 
+button:active {
+  background-color: #FED100;
+  }
+   
+a.button:link,
+a.button:visited,
+a.button:hover, 
+a.button:active,
+a.button:focus  
+  { 
+  border: 0px;
+  border-style: none;
+  text-decoration: none;
+  background-color: transparent;
   color: #ffffff;
-  underline: none;
+  }
+ 
+  
+a:link {
+  color: #006EBC;
+  }
+  
+a:hover {
+  color: #557B97;
   }
   
 a:visited {
-  color: #ffffff;
-  } 
+  color: #006EBC;
+  }
   
-a:hover {
-  color: #ffffff;
+a:focus {
+  background-color: #557B97;
+  underline: none;
+  border-bottom: 0px;
   }   
   
   
@@ -133,7 +182,7 @@ a:hover {
                   
                    <button style="margin-top: 30px">
                     <div class="globals_flex__3XB_K globals_alignItems-center__25sEa globals_pl-4__LHLIG globals_pr-2__1sQzh">
-                      <a href="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestB_GDSTasklistFunctionality/break.html">
+                      <a href="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestB_GDSTasklistFunctionality/break.html" class="button">
                         Save and Continue</a>
                         <svg width="32" height="32" fill="" stroke="" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="globals_fill-white__1FX3I" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="arrow-down">
                           <path d="M0 0h24v24H0V0z" fill="none"></path><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path></svg>

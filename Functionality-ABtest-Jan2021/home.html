@@ -4,6 +4,22 @@
 <link rel="stylesheet" type="text/css" href="https://thepensionsregulator.github.io/user-research/elements/css/main.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+  
+  
 </head>
 
 <body>
@@ -43,7 +59,7 @@
   </div>
     
   <div class="grid-item">
-      <div class="user-test">
+      <div class="user-test" id="overlay">
         <div class="prototype">
           <img src="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/imgs/SurveyB.png">
         </div>

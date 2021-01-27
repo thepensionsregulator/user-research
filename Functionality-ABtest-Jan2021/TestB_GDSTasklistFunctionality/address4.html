@@ -49,6 +49,17 @@ p {
 
   }
   
+ label {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px ;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #3d3d3d;
+
+  }
+ 
 a:visited {
   color: #3d3d3d;
   underline: none;
@@ -64,7 +75,10 @@ li {
   color: #3d3d3d;
 
   }
-  
+ label {
+  padding-top: 20px;
+  }
+   
 button {
   background-color: #0381A2;
   padding: 10px;
@@ -76,10 +90,21 @@ button:hover {
   background-color: #483B8B;
   }
   
-button:focus {
+button:active {
   background-color: #FED100;
   }
+   
+a.button:link,
+a.button:visited,
+a.button:hover, 
+a.button:active,
+a.button:focus  
+  { 
+  color: #ffffff;
+  border: 0px;
+  }
  
+  
 a:link {
   color: #006EBC;
   }
@@ -89,7 +114,7 @@ a:hover {
   }
   
 a:visited {
-  background-color: #483B8B;
+  color: #006EBC;
   }
   
 a:focus {
@@ -98,37 +123,6 @@ a:focus {
   border-bottom: 0px;
   }   
   
-label {
-  margin-top: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 24px ;
-  font-weight: 600;
-  letter-spacing: 0em;
-  color: #3d3d3d;
-
-  }
-  
-button a:link{ 
-  color: #ffffff;
-  underline: none;
-  }
-  
-button a:visited {
-  color: #ffffff;
-  } 
-  
-button a:hover {
-  color: #ffffff;
-  } 
-  
-button a:active {
-  color: #ffffff;
-}
-  
-button a:focus {
-  color: #ffffff;
-}  
   
   
 </style>

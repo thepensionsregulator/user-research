@@ -50,6 +50,17 @@ p {
 
   }
   
+ label {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px ;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #3d3d3d;
+
+  }
+ 
 a:visited {
   color: #3d3d3d;
   underline: none;
@@ -65,7 +76,10 @@ li {
   color: #3d3d3d;
 
   }
-  
+ label {
+  padding-top: 20px;
+  }
+   
 button {
   background-color: #0381A2;
   padding: 10px;
@@ -80,32 +94,38 @@ button:hover {
 button:active {
   background-color: #FED100;
   }
+   
+a.button:link,
+a.button:visited,
+a.button:hover, 
+a.button:active,
+a.button:focus  
+  { 
+  border: 0px;
+  border-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  }
+ 
   
-  
-label {
-  margin-top: 20px;
+a:link {
+  color: #006EBC;
   }
   
-a:link{ 
-  color: #ffffff;
-  underline: none;
+a:hover {
+  color: #557B97;
   }
   
 a:visited {
-  color: #ffffff;
-  } 
-  
-a:hover {
-  color: #ffffff;
-  } 
-  
-a:active {
-  color: #ffffff;
-}
+  color: #006EBC;
+  }
   
 a:focus {
-  color: #ffffff;
-}  
+  background-color: #557B97;
+  underline: none;
+  border-bottom: 0px;
+  }   
+  
   
   
 </style>

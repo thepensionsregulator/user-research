@@ -53,7 +53,7 @@
 }
 
 .govuk-link:focus, a:focus, .app-step-nav-header__title:focus, .app-step-nav-related__link:focus {
-  color: #006EBC;
+  color: pink;
 }
 
 @media print {

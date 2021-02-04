@@ -73,15 +73,15 @@ li {
   color: #3d3d3d;
 
   }
- label {
+ /*label {
   padding-top: 20px;
-  }
+  }*/
    
 button {
   background-color: #0381A2;
   padding: 10px;
   border-radius: 5px;
-  width: 120px;
+  width: 200px;
   color: #ffffff;
   margin: 30px 0px 30px 0px;
   }
@@ -176,7 +176,7 @@ a:focus {
       <div class="globals_flex__3XB_K globals_flexDirection-row__m0ceA globals_justifyContent-center__1xoF5">
         <div class="globals_flex__3XB_K local_aside__3w7oi globals_flexDirection-column__1sqJF globals_width-2__1ftbr">
           <div class="sidebar_sidebar__2PEJS"><div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF globals_mt-4__2PxH7">
-            <button type="button" class="buttons_link__27Xio globals_fontWeight-3__F6zPg globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontSize-4__dhtUV"><a="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestA_CurrentFunctionality/home.html">Home</a></button>
+            <li type="button" class="buttons_link__27Xio globals_fontWeight-3__F6zPg globals_color-primary-2__3oRdC globals_textAlign-left__24jQ1 globals_fontSize-4__dhtUV"><a="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestA_CurrentFunctionality/home.html">Home</a></li>
             <div class="globals_flex__3XB_K globals_justifyContent-space-between__1J4Zx globals_mt-4__2PxH7 globals_mb-2__2xZfM">
               <p class="typography_p__1WhbC">Section</p>
               <p class="typography_p__1WhbC">Progress 3 / 18</p>
@@ -247,7 +247,25 @@ a:focus {
                 <div class="layout_appWidth__38eTX">
                   <div class="globals_flex__3XB_K globals_flex-0-0-auto__kX5yA globals_width-10__3QmKg globals_justifyContent-flex-start__2Hm2C globals_mt-3__3UCEg" data-testid="BackLink">
                     </div></div>
-
+       
+                <!-- Right content/forms -->
+                
+              <h1 class="typography_h1__Zfw7U globals_mb-2__2xZfM globals_fontWeight-2__3bANn" data-testid="h1">Scheme name, address and contact details</h1>
+                <hr class="typography_hr__AfHzL typography_hr__AfHzL globals_mb-8__3uwZ8 globals_mt-6__1lsdj" data-testid="LineSeparator">
+                <div class="globals_flex__3XB_K globals_flexDirection-column__1sqJF globals_width-10__3QmKg">
+                  
+                  <form>
+                    <div class="globals_flex__3XB_K globals_flexDirection-column__1sqJF globals_mb-4__1Ka7F">
+                  <p class="typography_p__1WhbC globals_mb-4__1Ka7F">These are the scheme details currently held by the regulator. Correct any details as necessary.</p>
+                  <h4 class="typography_h4__2JQot globals_mb-1__2gNsF">Scheme Name</h4>
+                  <p class="typography_p__1WhbC globals_mb-2__2xZfM">
+                  This should be the full name of the pension scheme as written in the latest trust deed or any other subsequent amending document. We advise you not to include any scheme reference numbers as part of the scheme name. There is a space to add these details in the section relating to insurance company information.</p>
+                  <label class="elements_label__2-Zln globals_flexDirection-column__1sqJF globals_mt-1__1qb7I">
+                    <div class="globals_flex__3XB_K globals_flex-0-0-auto__kX5yA globals_width-5__2z4-p">
+                    <input type="text" data-testid="txtSchemeName" aria-label="Scheme name" class="input_inputText__1ECf-" name="schemeName" value="Acme Industrial, Ltd. Pension Fund.">
+                    </div>
+                      </label>
+                    </div>
 
 
 

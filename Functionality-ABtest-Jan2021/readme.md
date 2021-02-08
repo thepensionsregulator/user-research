@@ -1,4 +1,4 @@
-<h1>Functionality A/B test - Current build vs GDS task list</h1>
+<h1>Navigation A/B test - Current build vs GDS task list</h1>
 
 <p>This A/B test has been set up to provide research on the functionality of the current build after the recommendations on the first two 
 reports from the Department of Work and Pensions (DWP) with their feedback based on the Government Design Standard (GDS).</p>

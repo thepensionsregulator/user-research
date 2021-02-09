@@ -7,12 +7,34 @@
   
   
 <style>
-nav li {
-    padding: 10px 30px 10px 30px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 600;
+  
+ nav {
+   postion: fixed;
+   width: 110%; 
+   background-color: #EDEDED; 
+   margin: -15px 0px 0px -50px; 
+  }   
+  
+ nav li {
+   padding: 5px 40px 5px 40px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: 600;
+   font-size; 18px;
   }
+  
+ .side-nav {
+   postion: fixed;
+   margin-top: 60px;
+  }    
+  
+ .side-nav li {
+   padding: 10px 0px 10px 0px;
+   margin-left: -5px;
+   text-decoration: none;
+   list-style-type: none; 
+  }  
+
 
  nav a:link {
     border-bottom: none;
@@ -23,18 +45,18 @@ nav a:visited {
     border-bottom: none;
     color: #0B0030;
   }
+
   
-nav a:active {
-    border-bottom: solid 4px #777777;
-    color: #0B0030;
-  }
-  
-   
 nav a:hover {
     color: #006EBC;
     border-bottom: solid 4px #777777;
   } 
   
+  
+nav a:active {
+    border-bottom: solid 4px #777777;
+    color: #0B0030;
+  }  
   
 nav a:focus {
     border-bottom: solid 4px #777777;
@@ -42,6 +64,7 @@ nav a:focus {
   
   }  
     
+
   
   </style>  
 </head>
@@ -50,14 +73,12 @@ nav a:focus {
 <header>
   <div class="banner purple-bkg">
     <div class="wrapper">
-      <div="col1">
         <img src="https://thepensionsregulator.github.io/user-research/elements/imgs/TPR_logo_strap.png">
       </div>
     </div>
-  </div>
 </header>
-
-  <nav style="width: 110%; background-color: #EDEDED; margin: -10px 0px 0px -50px; z-index: 20">
+  
+  <nav>
     <div class="wrapper">
       <ul>
         <li><a href="https://thepensionsregulator.github.io/user-research/home.html">Getting started</a></li>

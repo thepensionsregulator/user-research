@@ -1,0 +1,92 @@
+
+<html>
+  
+<head>
+<link rel="stylesheet" type="text/css" href="https://thepensionsregulator.github.io/user-research/elements/css/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+<style>
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 10px solid #cdd500;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+  border: 10px solid #cdd500;
+}
+    
+.loader_position {
+  margin: 0 auto;
+  position: absolute;
+  top: 45%; left: 45%;
+  -ms-transform: translateY(-45%);
+  transform: translateY(-45%);
+  }
+    
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #3D3D3D; 
+  text-align: center;
+  margin: 25px 0px 0px 5px;
+  }
+    
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}
+</style>
+</head>
+
+  
+
+<body>
+
+<section class="wrapper" style="width: 62%; margin: 0 auto;">
+
+
+  <div class="loader_position">
+<div class="lds-ripple"><div></div><div></div></div>
+      <h3>Loading...</h3>
+
+  </div>
+
+
+
+  
+  <div style="wrapper: 100%; margin-top: 440px">
+      <div style="margin: 0 auto;  width: 180px;"><button onclick="location.href='https://thepensionsregulator.github.io/user-research/tests/loading-icon/loader2.html'" class="button" type="button" style="border: none; padding: 15px 30px 15px 30px; margin-top: 20px; margin-top: 30px; text-align: center; width: 180px" >
+          Next</button></div>
+  </div>
+
+  
+    
+</div>
+  
+</section>
+
+  
+</body>

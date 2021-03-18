@@ -441,9 +441,9 @@ a:focus {
     <p style="float:left;"><label for="dd" >Day</label>
     <input type="text" id="dd" maxlength=2 label="Day" onkeyup="moveToNext(this,'mm')" style="margin: 0 4px 0 4px; width: 60px;" autocomplete="off" value="2"></p>
 <p style="float:left;"><label for="mm">Month</label>
-    <input type="text" id="mm" maxlength=2 label="Month"  onkeyup="moveToNext(this,'yyyy')" style="margin: 0 4px 10px 4px; width: 60px;" autocomplete="off"></p>
+    <input type="text" id="mm" maxlength=2 label="Month"  onkeyup="moveToNext(this,'yyyy')" style="margin: 0 4px 10px 4px; width: 60px;" autocomplete="off" value="2"></p>
 <p style="float:left;"><label for="yyyy">Year</label>
-    <input type="text" id="yy"  label="Year" maxlength=4 style="margin: 0 4px 0 4px; width: 100px;" autocomplete="off"/></p>
+    <input type="text" id="yy"  label="Year" maxlength=4 style="margin: 0 4px 0 4px; width: 100px;" autocomplete="off" value="2020"/></p>
       </div>                                                                                               
     <div style="clear: both"></div>
   </div>
@@ -465,7 +465,7 @@ a:focus {
        <label>Property</label>
         <div id="error" class="error" style="margin: 0px"></div>
 
-          <input  type="text" name="qty"  id="qty1" oninput="findTotal()" class="hvr-pop" style="float: left;" autocomplete="off" required/>  &nbsp %</span> 
+          <input  type="text" name="qty"  id="qty1" oninput="findTotal()" class="hvr-pop" style="float: left;"  value="5" autocomplete="off" required/>  &nbsp %</span> 
        
                                                                                                                                  
          <div style="clear:both"></div>
@@ -521,7 +521,7 @@ a:focus {
            <label>Deferred or immediate fully insured annuities</label>
                               <div id="error3" class="error" style="margin: 0px"></div>
 
-       <input type="text" name="qty"  id="qty3" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/ > &nbsp %</span> 
+       <input type="text" name="qty"  id="qty3" oninput="findTotal()" class="hvr-pop" style="float: left" value="5" autocomplete="off" required/ > &nbsp %</span> 
     <div style="clear:both"></div>
 
               <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help3');">Help with deferred or immediate fully insured annuities</a></p>
@@ -551,7 +551,7 @@ a:focus {
      <label>Hedge Funds</label>
            <div id="error4" class="error" style="margin: 0px"></div>
 
-       <input type="text" name="qty" id="qty4" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span>   
+       <input type="text" name="qty" id="qty4" oninput="findTotal()" class="hvr-pop" style="float: left" value="10" autocomplete="off" required/>  &nbsp  %</span>   
     <div style="clear:both"></div>
 
        
@@ -590,7 +590,7 @@ a:focus {
      <label>Cash and net current assets</label>
                               <div id="error5" class="error" style="margin: 0px"></div>
 
-       <input type="text" name="qty"  id="qty5" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp %</span>  
+       <input type="text" name="qty"  id="qty5" oninput="findTotal()" class="hvr-pop" style="float: left" value="15" autocomplete="off" required/>  &nbsp %</span>  
                 <div style="clear:both"></div>
 
                      <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help5');">Help with Cash and net current assets
@@ -630,7 +630,7 @@ a:focus {
      <label >Commodities</label>
            <div id="error6" class="error"  style="margin: 0px"></div>
 
-       <input type="text" name="qty"  id="qty6" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp %</span>  
+       <input type="text" name="qty"  id="qty6" oninput="findTotal()" class="hvr-pop" style="float: left" value="5" autocomplete="off" required/>  &nbsp %</span>  
            <div style="clear:both"></div>
 
                     <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help6');">Help with Commodities</a></p>
@@ -655,7 +655,7 @@ a:focus {
             <label >Asset-backed contributions (ABCs)</label>
                               <div id="error7" class="error"  style="margin: 0px"></div>
 
-       <input type="text" name="qty"  id="qty7" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty7" oninput="findTotal()" class="hvr-pop" style="float: left" value="0" autocomplete="off" required/>  &nbsp  %</span> 
          <div style="clear:both"></div>
 
                      <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help7');">Help with Asset-backed contributions (ABCs)</a></p>
@@ -686,7 +686,7 @@ a:focus {
        <div id="error8" class="error" style="margin: 0px"></div>
 
                          <p  style="margin-top: -5px">If you enter a percentage greater than zero here, you must complete the Bond categories below.</p>
-       <input type="text" name="qty"  id="qty8" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty8" oninput="findTotal()" class="hvr-pop" style="float: left" value="30" autocomplete="off" required/>  &nbsp  %</span> 
           <div style="clear:both"></div>
 
             <!--    <p style="margin: 20px 0px 10px 0px; class="help"><a href="#/" onclick="toggle_visibility('help8');">Help with Bonds</a></p>
@@ -709,7 +709,7 @@ a:focus {
 
             <p style="margin-top: -5px">If you enter a percentage greater than zero here, you must complete the Equity categories below.</p>
 
-       <input type="text" name="qty"  id="qty9" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty9" oninput="findTotal()" class="hvr-pop" style="float: left" value="0" autocomplete="off" required/>  &nbsp  %</span> 
          <div style="clear:both"></div>
 
                  <!--    <p style="margin: 0px 0px 40px 0px; class="help"><a href="#/" onclick="toggle_visibility('help9');">Help with Equities</a></p>
@@ -731,7 +731,7 @@ a:focus {
             <label  style="margin-top: 30px">Other</label>
      <div id="error10" class="error" style="margin: 0px"></div>
 
-       <input type="text" name="qty"  id="qty10" oninput="findTotal()" class="hvr-pop" style="float: left" autocomplete="off" required/>  &nbsp  %</span> 
+       <input type="text" name="qty"  id="qty10" oninput="findTotal()" class="hvr-pop" style="float: left" value="40" autocomplete="off" required/>  &nbsp  %</span> 
          <div style="clear: both"></div>
 
                      <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help10');">Help with other</a></p>

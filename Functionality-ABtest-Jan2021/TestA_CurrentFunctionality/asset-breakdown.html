@@ -891,7 +891,7 @@ Include relevant components of multi-asset funds and insurance funds.
                                                         
 <div id="alert3" style="display: none; color: #A91717">Totals must add up to 100%</div>
 
-<output type="text" name="totalbonds" id="totalbonds" class="hvr-pop" readonly placeholder="Must total 100%"></output>%
+<output type="text" name="totalbonds" id="totalbonds" class="hvr-pop" value="100" readonly placeholder="Must total 100%"></output>%
 </div>
                                                          
 </fieldset>
@@ -934,7 +934,7 @@ Include relevant components of multi-asset funds and insurance funds.
      <p><label>Overseas quoted equities</label>
       <div id="error15" style="margin: 0px" class="error" ></div>
 
-       <input  type="text" name="quoted" id="quoted2" oninput="Total()" class="hvr-pop" value="0" style="float: left" required> &nbsp % </p>
+       <input  type="text" name="quoted" id="quoted2" oninput="Total()" class="hvr-pop" value="0"  value="100" style="float: left" required> &nbsp % </p>
     <div style="clear:both"></div>
 
        <p style="margin: 15px 0px 30px 0px; class="help"><a href="#/" onclick="toggle_visibility('help15');">Help with Overseas quoted equities</a></p>
@@ -992,9 +992,9 @@ Include relevant components of multi-asset funds and insurance funds.
 <p style="margin-top: 0px">This total automatically updates as you type.</p>
                                                         
                                                          
-<div id="alert6" style="display: none; color: #A91717">Totals must add up to 100%</div>
+<div id="alert6" style="display: none; color: #A91717"></div>
 
-<output type="text" name="totalquoted" id="totalquoted" class="hvr-pop" readonly placeholder="Must total 100%"></output>%
+<output type="text" name="totalquoted" id="totalquoted" class="hvr-pop"  value="0" readonly placeholder="Must total 100%"></output>%
 </div>
                                                          
 </fieldset>

@@ -47,6 +47,74 @@ a:link {
  text-decoration: underline;
 }
 
+ nav {
+   postion: fixed;
+   width: 110%; 
+   background-color: #0B0030; 
+   margin: -16px 0px 0px -50px; 
+  }   
+  
+ nav li {
+   padding: 10px 30px 10px 30px;
+   display: inline-block;
+   font-weight: 600;
+   font-size; 18px;
+   color: #ffffff;
+  }
+
+
+ nav a {
+   color: #ffffff;
+   text-decoration: none;
+padding: 10px 15px 10px 14px;
+
+  }
+
+ nav a:link {
+   color: #ffffff;
+   text-decoration: none;
+  }
+
+nav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+nav a:hover {
+  color: #ffffff;
+  border-bottom: solid 4px #ffffff;
+  padding-bottom: 6px;
+  text-decoration: none;
+  }  
+  
+nav a:active {
+    color: #ffffff;
+    border-bottom: solid 4px #ffffff;
+    padding-bottom: 6px;
+  }  
+  
+nav a:focus {
+    border-bottom: solid 4px #ffffff;
+    background-color: #FED100;
+    text-decoration: none;  
+}  
+
+
+.side-nav {
+   postion: fixed;
+   margin-top: 60px;
+  }    
+  
+ .side-nav li {
+   padding: 10px 0px 10px 0px;
+   margin-left: -5px;
+   text-decoration: none;
+   list-style-type: none; 
+  }  
+
+    
+
+
 .banner {
   width: 110%;
   margin: -15px -10px 0px -10px;

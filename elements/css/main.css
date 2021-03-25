@@ -441,7 +441,7 @@ For when we get more tests and the user testing grid is more then one row eg: be
 
 .app-colour-list-row {
     display: table-row;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border-bottom: 10px solid transparent;
 }
   

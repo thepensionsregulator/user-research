@@ -44,8 +44,20 @@ p {
 }
 
 a:link {
- color: #006EBC;
+ color: #483B8B;
  text-decoration: underline;
+}
+
+a:visited {
+ color: #483B8B;
+ text-decoration: underline;
+}
+
+a:focus {
+    border-bottom: solid 4px #ffffff;
+    background-color: #FED100;
+    text-decoration: none;  
+    color: #483B8B;
 }
 
  nav {
@@ -98,6 +110,7 @@ nav a:focus {
     border-bottom: solid 4px #ffffff;
     background-color: #FED100;
     text-decoration: none;  
+  color: #483B8B;
 }  
 
 
@@ -112,9 +125,6 @@ nav a:focus {
    text-decoration: none;
    list-style-type: none; 
   }  
-
-    
-
 
 .banner {
   width: 110%;

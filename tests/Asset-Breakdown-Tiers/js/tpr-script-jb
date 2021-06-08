@@ -1,0 +1,510 @@
+// ================ START GLOBAL VARIABLES ================ //
+
+var tierFlag = 'T2';         // for Asset Breakdown: Sets the Tier from the Guard Q screen based on radio choice: T1, T2, or T3
+var levelTwoFlag = 'Bonds';     // for Asset Breakdown: Determines where button on Level 3 Bond Categories (S, M, L) screen sends user 
+var levelThreeFlag = 'All';   // for Asset Breakdown: Determines which fields are visible on Level 3 Bond Categories based on entries in corresponding fields on Level 2 Bond Categories
+
+// ================ END GLOBAL VARIABLES ================ //
+
+// ================ START MISC??? ================ //
+
+function goBack() {
+  window.history.back();
+}
+
+function toLevelOne() {
+
+var choice = document.getElementById('ab-tiers-guard-q');
+choice = choice.tierAmt.value;
+
+if (choice == 'Tier-1') {
+  var tierFlag = 'T1';
+  console.log (tierFlag);
+  //window.location.href = './asset-breakdown-level-1-tier-1.html';
+} else if (choice == 'Tier-2') {
+  var tierFlag = 'T2';
+  console.log (tierFlag);
+  //window.location.href = 'http://www.website.net';
+} else if (choice == 'Tier-3') {
+  var tierFlag = 'T3';
+  console.log (tierFlag);
+  //window.location.href = 'http://www.bbc.co.uk';
+  }
+}
+
+// ** Start Test Functions for Tier Flags and Level Flags ** //
+
+function toLevelTwo() {
+
+  var choice = document.getElementById('L1-form');
+  choice = choice.tierAmt.value;
+  
+  if (choice == 'Tier-1') {
+    window.location.href = './asset-breakdown-level-1-tier-1.html';
+  } else if (choice == 'Tier-2') {
+    window.location.href = 'http://www.website.net';
+  } else if (choice == 'Tier-3') {
+    window.location.href = 'http://www.bbc.co.uk';
+    }
+  }
+
+if (localStorage.getItem('form') == 'Tier1') {    // TEMP NOTE: This is something to do with setting a flag from one screen to the next, but not sure.
+  $('#commentAndFileMessage').show();             // Review https://stackoverflow.com/questions/31274894/change-css-on-different-page-based-on-condition-using-javascript-jquery
+}
+
+/* $(document).ready(function() {
+  $('#dderror input[type=text,]').blur(function() {
+    if (!$(this).val()) {
+      document.getElementById('alertAB').style.display = 'block';
+      document.getElementById('errorAB').style.display = 'block';
+    } else {
+      document.getElementById('alertAB').style.display = 'none';
+      document.getElementById('errorAB').style.display = 'block';
+    }
+  });
+}); */
+
+// ================ END MISC??? ================ //
+
+// ================ START TOTAL FUNCTIONS ================ //
+
+function findTotal() {
+  'use strict';
+  var arr = document.getElementsByName('qty');
+  var tot = 0;
+  for (var i = 0; i < arr.length; i++) {
+    if (parseInt(arr[i].value)) {
+      tot += parseInt(arr[i].value);
+    }
+  }
+  document.getElementById('total').value = tot;
+  // check that weightage scores = 100    
+  if (tot !== 100) {
+    document.getElementById('alert').style.display = 'block';
+    document.getElementById('alert2').style.display = 'block';
+
+    return false;
+  } else {
+    document.getElementById('alert').style.display = 'none';
+    document.getElementById('alert2').style.display = 'none';
+  }
+}
+
+function Totals() {
+  'use strict';
+  var arr = document.getElementsByName('bonds');
+  var tot = 0;
+  for (var i = 0; i < arr.length; i++) {
+    if (parseInt(arr[i].value)) {
+      tot += parseInt(arr[i].value);
+    }
+  }
+  document.getElementById('totalbonds').value = tot;
+  // check that weightage scores = 100    
+  if (tot !== 100) {
+    document.getElementById('alert3').style.display = 'block';
+    document.getElementById('alert4').style.display = 'block';
+
+    return false;
+  } else {
+    document.getElementById('alert3').style.display = 'none';
+    document.getElementById('alert4').style.display = 'none';
+  }
+}
+
+function Total() {
+  'use strict';
+  var arr = document.getElementsByName('quoted');
+  var tot = 0;
+  for (var i = 0; i < arr.length; i++) {
+    if (parseInt(arr[i].value)) {
+      tot += parseInt(arr[i].value);
+    }
+  }
+  document.getElementById('totalquoted').value = tot;
+  // check that weightage scores = 100    
+  if (tot !== 100) {
+    document.getElementById('alert5').style.display = 'block';
+    document.getElementById('alert6').style.display = 'block';
+
+    return false;
+
+  } else {
+    document.getElementById('alert5').style.display = 'none';
+    document.getElementById('alert6').style.display = 'none';
+  }
+}
+
+function equityTotals() {
+  'use strict';
+  var arr = document.getElementsByName('equities');
+  var tot = 0;
+  for (var i = 0; i < arr.length; i++) {
+    if (parseInt(arr[i].value)) {
+      tot += parseInt(arr[i].value);
+    }
+  }
+  document.getElementById('totalequities').value = tot;
+  // check that weightage scores = 100    
+  if (tot !== 100) {
+    document.getElementById('alert7').style.display = 'block';
+    document.getElementById('alert8').style.display = 'block';
+
+    return false;
+
+  } else {
+    document.getElementById('alert7').style.display = 'none';
+    document.getElementById('alert8').style.display = 'none';
+  }
+}
+
+// ================ END TOTAL FUNCTIONS ================ //
+
+// ================ START ERROR FUNCTIONS ================ //
+
+function toggle_visibility(id) {
+  var e = document.getElementById(id);
+  if (e.style.display == 'block')
+    e.style.display = 'none';
+  else
+    e.style.display = 'block';
+}
+
+function moveToNext(field, nextFieldID) {
+  if (field.value.length >= field.maxLength) {
+    document.getElementById(nextFieldID).focus();
+  }
+}
+
+qty1.onblur = function() {
+  if (!qty1.value.length > 0) { // not email
+    qty1.classList.add('invalid');
+    error.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty1.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error.innerHTML = '';
+  }
+}
+
+qty2.onblur = function() {
+  if (!qty2.value.length > 0) { // not email
+    qty2.classList.add('invalid');
+    error2.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty2.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error2.innerHTML = '';
+  }
+}
+
+qty3.onblur = function() {
+  if (!qty3.value.length > 0) { // not email
+    qty3.classList.add('invalid');
+    error3.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty3.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error3.innerHTML = '';
+  }
+}
+
+qty4.onblur = function() {
+  if (!qty4.value.length > 0) { // not email
+    qty4.classList.add('invalid');
+    error4.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty4.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error4.innerHTML = '';
+  }
+}
+
+qty5.onblur = function() {
+  if (!qty5.value.length > 0) { // not email
+    qty5.classList.add('invalid');
+    error5.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty5.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error5.innerHTML = '';
+  }
+}
+
+qty6.onblur = function() {
+  if (!qty6.value.length > 0) { // not email
+    qty6.classList.add('invalid');
+    error6.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty6.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error6.innerHTML = '';
+  }
+}
+
+qty7.onblur = function() {
+  if (!qty7.value.length > 0) { // not email
+    qty7.classList.add('invalid');
+    error7.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty7.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error7.innerHTML = '';
+  }
+}
+
+
+qty8.onblur = function() {
+  if (!qty8.value.length > 0) { // not email
+    qty8.classList.add('invalid');
+    error8.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty8.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error8.innerHTML = '';
+  }
+}
+
+qty9.onblur = function() {
+  if (!qty9.value.length > 0) { // not email
+    qty9.classList.add('invalid');
+    error9.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty9.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error9.innerHTML = '';
+  }
+}
+
+qty10.onblur = function() {
+  if (!qty10.value.length > 0) { // not email
+    qty10.classList.add('invalid');
+    error10.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty10.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error10.innerHTML = '';
+  }
+}
+
+qty11.onblur = function() {
+  if (!qty11.value.length > 0) { // not email
+    qty11.classList.add('invalid');
+    error11.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+qty11.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error11.innerHTML = '';
+  }
+}
+
+bonds1.onblur = function() {
+  if (!bonds1.value.length > 0) { // not email
+    bonds1.classList.add('invalid');
+    error11.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+bonds1.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error11.innerHTML = '';
+  }
+}
+
+bonds2.onblur = function() {
+  if (!bonds2.value.length > 0) { // not email
+    bonds2.classList.add('invalid');
+    error12.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+bonds2.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error12.innerHTML = '';
+  }
+}
+
+bonds3.onblur = function() {
+  if (!bonds3.value.length > 0) { // not email
+    bonds3.classList.add('invalid');
+    error13.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+bonds3.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error13.innerHTML = '';
+  }
+}
+
+equities1.onblur = function() {
+  if (!equities1.value.length > 0) { // not email
+    equities1.classList.add('invalid');
+    error17.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+equities1.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error17.innerHTML = '';
+  }
+}
+
+equities2.onblur = function() {
+  if (!equities2.value.length > 0) { // not email
+    equities2.classList.add('invalid');
+    error18.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+equities2.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error18.innerHTML = '';
+  }
+}
+
+equities3.onblur = function() {
+  if (!equities3.value.length > 0) { // not email
+    equities3.classList.add('invalid');
+    error19.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+equities3.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error19.innerHTML = '';
+  }
+}
+
+quoted.onblur = function() {
+  if (!quoted.value.length > 0) { // not email
+    quoted.classList.add('invalid');
+    error14.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+quoted.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error14.innerHTML = '';
+  }
+}
+
+quoted2.onblur = function() {
+  if (!quoted2.value.length > 0) { // not email
+    quoted2.classList.add('invalid');
+    error15.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+quoted2.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error15.innerHTML = '';
+  }
+}
+
+quoted3.onblur = function() {
+  if (!quoted3.value.length > 0) { // not email
+    quoted3.classList.add('invalid');
+    error16.innerHTML = 'A value must be provided. Enter 0 if this asset type is not held'
+  }
+};
+
+quoted3.onfocus = function() {
+  if (this.classList.contains('invalid')) {
+    // remove the 'error' indication, because the user wants to re-enter something
+    this.classList.remove('invalid');
+    error16.innerHTML = '';
+  }
+}
+
+// ================ END ERROR FUNCTIONS ================ //
+
+// ================ START DETAILS TEXT FUNCTIONS ================ //
+
+function showdiv() {
+  document.getElementById('help8').style.display = 'block';
+}
+
+function showdivEC() {
+  document.getElementById('help9').style.display = 'block';
+}
+
+// ================ END DETAILS TEXT FUNCTIONS ================ //
+
+(function() {
+  $('form > input').keyup(function() {
+
+    var empty = false;
+    $('form > input').each(function() {
+      if ($(this).val() == '') {
+        empty = true;
+      }
+    });
+
+    if (empty) {
+      $('#register').attr('disabled', 'disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+    } else {
+      $('#register').removeAttr('disabled'); // updated according to http://stackoverflow.com/questions/7637790/how-to-remove-disabled-attribute-with-jquery-ie
+    }
+  });
+})()

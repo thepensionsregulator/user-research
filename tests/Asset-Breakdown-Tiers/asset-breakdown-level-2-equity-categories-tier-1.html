@@ -1,0 +1,325 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestA_CurrentFunctionality/css/gds-style.css">
+  <link rel="stylesheet" href="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestA_CurrentFunctionality/css/main.css">
+  <link rel="stylesheet" href="./css/tpr-styles-jb.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link href="./css/forms-jb.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <!-- OLD HEAD STYLES WENT HERE FROM tests/Asset-Breakdown-Tiers/OLD-HEAD-STYLES-JUST-IN-CASE.html -->
+
+  <!-- Hotjar Tracking Code for https://thepensionsregulator.github.io/user-resear -->
+  <script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 2299591,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="layout_docWidth__3059x beta_beta__2i-o_">
+      <div class="layout_appWidth__38eTX">
+        <div class="globals_flex__3XB_K globals_alignItems-center__25sEa">
+          <p class="typography_p__1WhbC globals_fontSize-1__1PNIE globals_color-white__20apa globals_bg-primary-3__13NFP globals_p-1__Z-NT3 globals_my-2__3k7zw globals_mr-3__unUVF">
+            BETA</p>
+          <p class="typography_p__1WhbC globals_fontSize-1__1PNIE globals_color-neutral-6__3uCWw">This is a new service
+            - your feedback will help us improve it.</p>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%;">
+      <img src="https://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestB_GDSTasklistFunctionality/imgs/header.png" style="width: 100%">
+    </div>
+  </header>
+
+  <!-- START Main content -->
+
+  <div class="globals_flex__3XB_K globals_flexDirection-row__m0ceA globals_justifyContent-center__1xoF5">
+
+    <div class="globals_flex__3XB_K local_aside__3w7oi globals_flexDirection-column__1sqJF globals_width-2__1ftbr">
+      <div class="sidebar_sidebar__2PEJS" style="margin: 5px">
+        <div class="globals_flex__3XB_K sidebar_sidebarMenu__2etJQ globals_flexDirection-column__1sqJF globals_mt-4__2PxH7">
+        </div>
+      </div>
+    </div>
+
+    <div class="globals_flex__3XB_K local_main__3SMIh globals_flexDirection-column__1sqJF globals_width-8__K8PVg globals_p-4__djFdZ">
+
+      <!-- START Back button -->
+
+      <div id="back-btn"><a onclick="goBack()">&lt; Back</a></div>
+
+      <!-- END Back button -->
+
+      <div class="sc-jss-placeholder-error">
+        <div class="govuk-grid-row">
+          <div class="govuk-grid-column-two-thirds">
+
+            <!-- START Page title / HR lockup -->
+            <div class="title-lockup">
+              <p class="overline-subtitle">Asset breakdown</p>
+
+              <h1 class="typography_h1__Zfw7U globals_mb-2__2xZfM globals_fontWeight-2__3bANn" data-testid="h1">Equity categories</h1>
+            </div>
+            <!-- END Page title / HR lockup -->
+
+            <!-- START Intro text -->
+            <p>You've told us your scheme holds equities. Indicate the % split over the following categories. Your entries must add up to 100%.</p>
+            <!-- END Intro text -->
+
+            <!-- START Form -->
+            <form id="form" method="get" action="tps://thepensionsregulator.github.io/user-research/Functionality-ABtest-Jan2021/TestB_GDSTasklistFunctionality/asset-breakdown-review.html">
+
+              <!-- START Equity Category Fields -->
+
+              <fieldset class="tpr-fieldset">
+
+                <!--START Error bar div -->
+
+                <div class="error-bar-container">
+                  <!-- <div style="border-left: 6px solid white; height: 1px; padding: 0; margin: 0"></div> -->
+                  <div id="alert2" class="error-bar"></div>
+                </div>
+                
+                <!--END Error bar div -->
+                
+                <div class="ZZZZZZZZZZ" style="width: 80%; float: left;  margin-top: -30px;">
+
+                  <!-- START PASTED CONTENT -->
+
+                      <!-- START UK quoted  -->
+
+                        <div class="tpr-form-group tpr-form-group--input-with-details">
+                          <label>UK quoted</label>
+                          <div id="error17" class="error"></div>
+
+                          <div class="tpr-input__wrapper">
+                            <input type="text" name="qty" id="qty1" oninput="findTotal()" class="hvr-pop" style="float: left;" value="80" autocomplete="off" spellcheck="false" required />
+                            <div class="tpr-input__suffix" aria-hidden="true">%</div>
+                          </div>
+
+                          <!-- <input type="text" name="equities" id="equities1" oninput="equityTotals()" class="hvr-pop" value="10"
+                            style="float: left;" autocomplete="off" required> &nbsp % -->
+
+                          <div style="clear:both"></div>
+
+                        <!-- START UK quoted Details -->
+
+                          <p class="details">
+                            <a href="#/" class="details-link" onclick="toggle_visibility('help11');">Help with UK quoted</a>
+                          </p>
+
+                          <div class="help" id="help11" style="display: none">
+
+                            <div class="details-text">
+                              <p>Equities—UK quoted help goes here </p>
+
+                              <p>Equities—UK quoted help goes here</p>
+
+                              <p>Equities—UK quoted help goes here</p>
+
+                              <p>Equities—UK quoted help goes here</p>
+                            </div>
+                            <div style="clear:both"></div>
+                          </div>
+
+                         <!-- END UK quoted Details -->
+
+                        </div>
+
+                      <!-- END UK quoted  -->
+
+                      <!-- START Overseas quoted  -->
+
+                        <div class="tpr-form-group tpr-form-group--input-with-details">
+                          <label>Overseas quoted</label>
+                          <div id="error18" class="error"></div>
+
+                          <div class="tpr-input__wrapper">
+                            <input type="text" name="qty" id="qty2" oninput="findTotal()" class="hvr-pop" style="float: left" value="20" autocomplete="off" spellcheck="false" required />
+                            <div class="tpr-input__suffix" aria-hidden="true">%</div>
+                          </div>
+
+                          <!-- <input type="text" name="equities" id="equities2" oninput="equityTotals()" class="hvr-pop" value="90"
+                            style="float: left" autocomplete="off" required> &nbsp % -->
+
+                          <div style="clear:both"></div>
+
+                        <!-- START Overseas quoted Details -->
+
+                          <p class="details">
+                            <a href="#/" class="details-link" onclick="toggle_visibility('help12');">Help with overseas quoted</a>
+                          </p>
+
+                          <div class="help" id="help12" style="display: none">
+
+                            <div class="details-text">
+
+                              <p>Equities—Overseas quoted help goes here</p>
+
+                              <p>Equities—Overseas quoted help goes here</p>
+
+                              <ul>
+                                <p>MORE EQUITIES HELP STUFF... Assets that fall under this category include:</p>
+                                <li> investment grade corporate bonds</li>
+                                <li> convertible bonds where they are classified as debt-like</li>
+                                <li> asset-backed securities (ABS)</li>
+                                <li> mortgage-backed securities (MBS) and</li>
+                                <ul>
+                                  <li> alternative credit, which includes:</li>
+                                  <li> sub-investment grade (also known as high yield bonds)</li>
+                                  <li> distressed debt</li>
+                                  <li> subordinated debt</li>
+                                  <li> senior debt</li>
+                                  <li> mezzanine debt</li>
+                                  <li> leveraged loans</li>
+                                </ul>
+                              </ul>
+
+                              <p>Equities—Overseas quoted help goes here</p>
+
+                              <p>Equities—Overseas quoted help goes here</p>
+
+                            </div>
+                            <div style="clear:both"></div>
+                          </div>
+
+                        <!-- END Overseas quoted Details -->
+
+                        </div>
+
+                      <!-- END Overseas quoted -->
+
+                      <!-- START Unquoted equities/private equity -->
+
+                        <div class="tpr-form-group tpr-form-group--input-with-details">
+                          <label>Unquoted equities/private equity</label>
+                          <div id="error19" class="error"></div>
+
+                          <div class="tpr-input__wrapper">
+                            <input type="text" name="qty" id="qty3" oninput="findTotal()" class="hvr-pop" value="0" style="float: left" autocomplete="off" spellcheck="false" required />
+                            <div class="tpr-input__suffix" aria-hidden="true">%</div>
+                          </div>
+                          
+                          <!-- <input type="text" name="equities" id="equities3" oninput="equityTotals()" class="hvr-pop" value="0"
+                            style="float: left" autocomplete="off" required> &nbsp % -->
+                          
+                            <div style="clear:both"></div>
+
+                        <!-- START Unquoted equities/private equity Details -->
+
+                          <p class="details">
+                            <a href="#/" class="details-link" onclick="toggle_visibility('help13');">Help with unquoted equities/private equity</a>
+                          </p>
+
+                          <div id="help13" style="display:none; margin-bottom: 40px" class="help">
+
+                            <div class="details-text">
+                              <p>Equities—Unquoted equities/private equity help goes here</p>
+                              <p>Equities—Unquoted equities/private equity help goes here</p>
+                              <p>Equities—Unquoted equities/private equity help goes here</p>
+
+                            </div>
+                          </div>
+                          <div style="clear:both"></div>
+
+                      <!-- END Unquoted equities/private equity -->
+
+                        </div>
+
+                        <!-- START Unquoted equities/private equity Details -->
+
+                  <!-- END PASTED CONTENT -->
+
+                  <!-- START In-line Total
+                    
+                  <hr class="end-separator">
+                  </hr> 
+
+                  <div style="height: 150px">
+                    <h3>Equity categories total</h3>
+
+                    <p style="margin:0px 0px 10px 0px">This total automatically updates as you type.</p>
+
+                    <div id="alert" class="error" >Totals must add up to 100%</div>
+
+                    <output type="text" name="total" id="total" class="hvr-pop" readonly placeholder="Must total 100%" value="100">100</output><span class="total-percent">%</span>
+                  </div>
+
+                  END In-line Total -->
+
+                  <div class="floating-total">
+
+                    <hr class="end-separator"></hr>
+
+                    <div class="white-bkgd" style="height: 150px">
+                      <h3>Equity categories total</h3>
+
+                      <p style="margin:0px 0px 10px 0px">This total automatically updates as you type.</p>
+
+                      <div id="alert" class="error">Total must add up to 100%</div>
+
+                     <output type="text" name="total" id="total" class="hvr-pop" readonly placeholder="Must total 100%"
+                      value="100">100</output><span class="total-percent">%</span>
+                    </div>
+                  
+                  </div>
+                  <!-- END FLOATING Total -->
+
+              </fieldset>
+
+              <!-- END Equity Category Fields -->
+
+              <!-- START Primary Button --->
+
+              <button id="tier-1-equity-btn" onclick="location.href='#'" class="button" type="button">
+                Save and continue 
+                <svg width="32" height="32" fill="" stroke="" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="globals_fill-white__1FX3I" xmlns:xlink="http://www.w3.org/1999/xlink" data-testid="arrow-down">
+                  <path d="M0 0h24v24H0V0z" fill="none"></path>
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" class="chevron"></path>
+                </svg>
+              </button>
+
+              <!-- END Primary Button --->
+
+            </form>
+            <!-- END Form --->
+
+          </div>
+        </div>
+      </div>
+
+      <!-- END Main Content --->
+
+
+      <script src="//cdn.loop11.com/embed.js" type="text/javascript" async="async"></script>
+      <script src="//cdn.loop11.com/embed.js" type="text/javascript" async="async"></script>
+
+</body>
+
+<script src="./js/tpr-script-jb"></script>

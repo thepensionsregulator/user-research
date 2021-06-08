@@ -1,0 +1,850 @@
+/* ================ TABLE OF CONTENTS ================
+1. Global styles
+2. Link Styles
+etc.
+
+================ END TABLE OF CONTENTS ================ */
+
+
+/* ================ 1. GLOBAL STYLES ================ */
+
+html {
+  boxing-sizing: border-box;
+}
+
+* {
+  vertical-align: middle;
+}
+
+*:before,
+*:after {
+  boxing-sizing: inherit;
+}
+
+body {
+  color: #3d3d3d !important;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #3d3d3d !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 68px !important;
+}
+
+h2 {
+  color: #3d3d3d !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0em !important;
+  line-height: 36px !important;
+}
+
+h3 {
+  color: #3d3d3d !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0em !important;
+  line-height: 28px !important;
+  padding-top: 20px;
+}
+
+h4 {
+  color: #3d3d3d !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+h5 {
+  color: #3d3d3d !important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+p {
+  color: #3d3d3d;/* Eclipse */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px !important;
+}
+
+label {
+  color: #3d3d3d;/* Eclipse */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 1.5;
+}
+
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #3d3d3d;/* Eclipse */
+
+}
+
+/* ================ END Global Styles ================ */
+
+
+/* ================ 2. LINK STYLES ================ */
+
+a,
+a:link {
+  color: #006EBC; /* Royal blue */
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.125em;
+}
+
+a:hover {
+  color: #557B97; /* Kashmir blue */
+  text-decoration-thickness: 3px;
+}
+
+a:focus,
+#back-btn:focus {
+  background-color: #fed100; /* Tangerine yellow */
+  border-bottom: 4px solid #3d3d3d;
+  color: #3d3d3d !important; /* Eclipse */
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #483b8b; /* Violet */
+}
+
+button:focus path.chevron, button:focus {
+  fill: #3d3d3d;
+  color:#3d3d3d;
+}
+
+/* a.button:link, */
+/* a.button:active, */
+/* a.button:focus, */
+a.button:visited,
+a.button:hover {
+  border: 0px;
+  border-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.details-link {
+  text-decoration: underline;
+}
+
+/* ================ END Link Styles ================ */
+
+
+/* ================ XX. BUTTON STYLES ================ */
+
+button {
+  background-color: #0381a2; /* Eastern blue */
+  border-radius: 8px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 13px 27px; /* padding: 5px 20px; */
+  margin: 30px 0px 30px 0px; /* margin: 0 auto; */
+  text-align: center;
+  transition-duration: 0.4s;
+  /* width: 200px; */
+}
+
+button:hover {
+  background-color: #483b8b; /* Violet */
+}
+
+button:active,
+button:focus {
+  background-color: #fed100; /* Tangerine yellow */
+  color: #3d3d3d;/* Eclipse */
+  border-bottom: 2px solid #3d3d3d;
+}
+
+button.secondary-btn {
+  background-color: #006ebc; /* Royal blue */
+}
+
+button.needs-width { /* This is a "fudge" class for now to fix the Continue button on the Asset Breakdown Guard page. */
+  width: 200px;
+  margin: 40px 0;
+}
+
+/* Not sure what .button2 relates to... */
+
+.button2 {
+  background-color: #7469ba; /* Blue Marguerite */
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #ffffff;
+  color: #3d3d3d; /* Eclipse */
+}
+
+.button2 a:link {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+.button2 a:visited {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+/* #back-btn {
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+
+/* ================ END Button Styles ================ */
+
+
+/* ================ XX. BANNER STYLES ================ */
+
+.banner {
+  width: 110%;
+  margin: -15px -10px 0px -10px;
+}
+
+.banner img {
+  width: 75%;
+  margin: 0px 0px 0px -20px;
+}
+
+/* ================ END Banner Styles ================ */
+
+/* ================ XX. USER RESEARCH CENTRE STYLES (???) ================ */
+
+.intro {
+  padding: 20px 40px 40px 40px;
+  border-radius: 5px;
+  margin: 30px 0px 30px 0px;
+}
+
+.user-test {
+  border: 1px solid #cacaca;
+  /*width: 195px;*/
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.prototype {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.col-2 .prototype {
+  height: 250px;
+}
+
+.col-4 .prototype {
+  height: 120px;
+}
+
+.prototype img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.user-test-text {
+  padding: 5px;
+}
+
+.user-test-footer {
+  background-color: #ededed;
+  width: 102%;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 15px 0px 15px 0px;
+  margin: 0px 0px -2px -3px;
+}
+
+/* ===== Styles - Colours page ===== */
+
+.app-colour-list-row {
+    display: table-row;
+    margin-bottom: 25px;
+    border-bottom: 10px solid transparent;
+}
+
+.app-swatch {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+  }
+  .app-colour-list-column--name {
+    font-weight: normal;
+    text-align: left;
+}
+
+.app-colour-list-column {
+    display: block;
+    position: relative;
+    padding-left: 50px;
+}
+
+/* ================ END User Research Centre Styles (???) ================ */
+
+/* ================ XX. FIELDSET STYLES ================ */
+
+.tpr-fieldset {
+  padding: 30px 0 0 0 !important;
+  margin: -10px;
+}
+
+.tpr-fieldset__legend {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0;
+}
+
+.tpr-fieldset__legend {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #3d3d3d; /* Eclipse */
+  box-sizing: border-box;
+  display: table;
+  max-width: 100%;
+  margin-bottom: 10px;
+  padding: 14px 0 0 0;
+  white-space: normal;
+}
+
+.tpr-form-group {
+  padding: 18px 0;
+}
+
+/* ================ END Fieldset Styles ================ */
+
+/* ================ XX. GOV.UK OVERRIDES STYLES ================ */
+
+.govuk-label,
+.govuk-radios__label {
+  color: #3d3d3d;/* Eclipse */
+  font-weight: 600;
+}
+
+.tpr-back-link a.govuk-back-link {
+  color: #006ebc !important; /* Royal Blue */
+}
+
+/* ================ END GOV.UK Overrides Styles ================ */
+
+
+/* ================ XX. HINT & INSET TEXT STYLES ================ */
+
+.hint-text {
+  color: #585858;
+  margin: -15px 0 15px 0;
+}
+
+.inset-text {
+  border-left: 10px solid #CACACA;
+  font-weight: 600;
+  padding: 15px 0px 15px 15px;
+}
+
+/* ================ END Hint & Inset Text Styles ================ */
+
+
+/* ================ XX. DETAILS COMPONENT STYLES ================ */
+
+.details-text {
+  border-left: 6px solid #CACACA;
+  float: left;
+  margin: 0px 0px 40px 0px;
+  padding-left: 30px;
+  width: 80%;
+}
+
+p.details {
+  color: #006EBC; /* Royal blue */
+  font-weight: 600;
+  margin: 10px 0 0 0;
+}
+
+p.details::before {
+  color: #006EBC; /* Royal blue */
+  content: "∨";
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ================ END Details Component Styles ================ */
+
+
+/* ================ XX. TOTALS STYLES ================ */
+
+.end-separator {  /* HR above Totals */
+  border-top: 1px solid #cacaca;
+  margin: 30px 0 0 0;
+}
+
+#total,
+.total-percent {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+/* ================ END Totals Styles ================ */
+
+
+/* ================ XX. PAGE TITLE STYLES ================ */
+
+.title-lockup {
+  border-bottom: 1px solid #cacaca;
+  padding: 0 0 18px 0;
+}
+
+.title-lockup h1 {
+  font-weight: 600 !important;
+  margin-top: 10px;
+}
+
+.overline-subtitle {
+  color: #777777;
+  font-size: 23px;
+  line-height: 1.391;
+  margin: 26px 0 0 0;
+}
+
+/* ================ END Page Title Styles ================ */
+
+
+/* ================ XX. INPUT STYLES ================ */
+
+input {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+.tpr-input__wrapper {
+  display: flex;
+}
+
+.tpr-input__suffix {
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0 0 10px;
+  width: 40px;
+}
+
+/* ================ END Input Styles ================ */
+
+
+/* ================ XX. TPR COLOUR CLASSES ================ */
+
+.violet { color: #483b8b } /* Main header bkgd, Primary button hover, Link visited */
+.blue-marguerite { color: #7469ba } /* Header VR */
+.lime { color: #cdd500 } /* TPR logo */
+.tolopea { color: #0b0030 } /* Header highlight (e.g. nav section, scheme name and PSR number)*/
+.eastern-blue { color: #0381a2 } /* Primary button default / Info panel bkgd */
+.regent-st-blue { color: #99ccd9 } /* Primary button disabled */
+.royal-blue { color: #006ebc } /* Link default, Secondary button default */
+.kashmir-blue { color: #557B97 } /* Link hover*/
+.cornflower { color: #98c4e4 } /* Disabled link and Secondary button */
+.camarone { color: #1e7e34 } /* Confirmation panel / "Good" status */
+.fire-brick { color: #a91717 } /* "Warning" status, Destructive button, Destructive border */
+.brick { color: #cd2e25 } /* Destructive button hover */
+.petite-orchid { color: #dca1a1 } /* Destructive button disabled */
+.tangerine-yellow { color: #fed100 } /* Focus: Field/Radio/Checkbox/Button/Link, Highlight: Destructive border */
+.snow { color: #fafafa } /* Radio/Checkbox bkgd disabled */
+.white-smoke { color: #f5f5f5 } /* Radio/Checkbox bkgd  */
+.whisper { color: #ededed } /* Panel bkgd, Header highlight (e.g. scheme maintenance theme), Footer bkgd */
+.very-light-grey { color: #cacaca } /* Borders, HRs */
+.silver { color: #bbbbbb } /* Radio/Checkbox border disabled  */
+.dark-grey { color: #b0b0b0 } /* Radio/Checkbox text disabled */
+.grey { color: #777777 } /* Overline Subtitle  */
+.steel { color: #54616c } /* Footer: top border and links */
+.zambezi { color: #585858 } /* Help/Hint text */
+.eclipse { color: #3d3d3d } /* Main Body text */
+.white { color: #ffffff } /* TPR logo, Reversed text and links, Main page bkgd */
+
+.violet-bkgd { background-color: #483b8b }
+.blue-marguerite-bkgd { background-color: #7469ba }
+.lime-bkgd { background-color: #cdd500 }
+.tolopea-bkgd { background-color: #0b0030 }
+.tangerine-yellow-bkgd { background-color: #fed100 }
+.whisper-bkgd { background-color: #ededed }
+.very-light-grey-bkgd { background-color: #cacaca }
+.dark-grey-bkgd { background-color: #b0b0b0 }
+.zambezi-bkgd { background-color: #585858 }
+.eclipse-bkgd { background-color: #3d3d3d }
+.white-bkgd { background-color: #ffffff }
+
+/* ================ END TPR Colour Classes ================ */
+
+
+/* ================ XX. TPR GRID LAYOUT ================ */
+
+.wrapper {
+  max-width: 1440px;
+  margin: 15px 165px 15px 165px;
+}
+
+.grid-item {
+  margin: 30px 30px 30px 0;
+  float: left;
+}
+
+.grid-item:last-child {
+  margin-right: 0px;
+}
+
+/*
+For when we get more tests and the user testing grid is more then one row eg: below would be 3 cols 3 rows
+.grid-item: north-child(3n+3) {
+  margin-right: 0;
+  float: right;
+}*/
+
+/*.col-1 .grid-item {
+  width: 1110px;
+  float: left;
+}
+
+.col-2 .grid-item {
+  width: 540px;
+  float: left;
+}
+
+.col-3 .grid-item {
+  width: 350px;
+  float: left;
+}
+
+.col-4 .grid-item {
+  width: 255px;
+  float: left;
+}
+
+.col-12 .grid-item {
+  width: 65px;
+  float: left;
+}
+
+.col-2-3rds .grid-item {
+  width: 540px;
+  float: left;
+}*/
+
+.col-1 .grid-item {
+  width: 100%;
+  max-width: 1115px;
+}
+
+.col-2 .grid-item {
+  width: 47%;
+  margin: 0px 30px 0px 0px;
+  float: left;
+}
+
+.col-2 .grid-item:last-child {
+  margin-right: 0px;
+}
+
+.col-3 .grid-item {
+  width: 30%;
+  margin: 0px 30px 0px 0px;
+  float: left;
+}
+
+.col-4 .grid-item {
+  width: 22%;
+  margin: 0px 30px 0px 0px;
+  float: left;
+}
+
+.col-4 .grid-item:last-child {
+  margin-right: 0px;
+}
+
+.col-2-3rds .grid-item {
+  width: 60%;
+  float: left;
+  margin: 0px 0px 0px 30px;
+
+}
+
+.clear {
+  clear: both;
+}
+
+/* ===== Tablet  Grid ===== */
+
+@media screen and (max-width: 991px) {
+  .wrapper {
+    max-width: 991px;
+    margin: 14px 28px 14px 28px;
+  }
+
+  .grid-item {
+    margin-right: 28px;
+    float: left;
+  }
+
+  .col-1 .grid-item {
+    width: 652px;
+    float: left;
+  }
+
+  .col-2 .grid-item {
+    width: 316px;
+    float: left;
+  }
+
+  .col-4 .grid-item {
+    width: 178px;
+    float: left;
+  }
+
+  .col-3-4ths .grid-item {
+    width: 484px;
+    float: left;
+   }
+}
+
+/* ===== Mobile  Grid ===== */
+
+@media screen and (max-width: 991px) {
+  .wrapper {
+    max-width: 767px;
+    margin: 8px 16px 8px 16px;
+  }
+
+  .grid-item {
+    margin-right: 16px;
+    float: left;
+  }
+
+  .col-1 .grid-item {
+    width: 320px;
+    float: left;
+  }
+
+  .col-2 .grid-item {
+    width: 152px;
+    float: left;
+  }
+
+  .col-4 .grid-item {
+    width: 68px;
+    float: left;
+  }
+
+  .col-3-4ths .grid-item {
+    width: 236px;
+    float: left;
+   }
+}
+
+/* ================ END TPR Grid Layout ================ */
+
+
+/* ================ XX. NAV STYLES (for older versions of prototypes w/ L-H nav) ================ */
+
+nav {
+  postion: fixed;
+  width: 110%;
+  background-color: #0B0030;
+  margin: -16px 0px 0px -50px;
+ }
+
+nav li {
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  font-weight: 600;
+  font-size; 18px;
+  color: #ffffff;
+ }
+
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+padding: 10px 15px 10px 14px;
+
+ }
+
+nav a:link {
+  color: #ffffff;
+  text-decoration: none;
+ }
+
+nav a:visited {
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+nav a:hover {
+ color: #ffffff;
+ border-bottom: solid 4px #ffffff;
+ padding-bottom: 6px;
+ text-decoration: none;
+ }
+
+nav a:active {
+   color: #ffffff;
+   border-bottom: solid 4px #ffffff;
+   padding-bottom: 6px;
+ }
+
+nav a:focus {
+   border-bottom: solid 4px #ffffff;
+   background-color: #FED100;
+   text-decoration: none;
+ color: #483B8B;
+}
+
+
+.side-nav {
+  postion: fixed;
+  margin-top: 60px;
+ }
+
+.side-nav li {
+  padding: 10px 0px 10px 0px;
+  margin-left: -5px;
+  text-decoration: none;
+  list-style-type: none;
+ }
+
+/* ================ END Nav Styles (for older versions of prototypes w/ L-H nav) ================ */
+
+
+/* ================ XX. FOOTER STYLES ================ */
+
+ .footer {
+   width: 100%;
+   margin: 0 auto;
+   padding: 100px;
+   background-colour: #3d3d3d;
+   color: #ffffff;
+ }
+
+ /* ================ END Footer Styles ================ */
+
+
+ /* The below may be related to Colours page, but not sure. */
+
+ /*.container {
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px 65px;
+   margin: 0px 165px 0px 165px;
+ }
+
+ .container > div {
+   padding: 20px 0;
+ }
+
+ div {
+     display: inline;
+ }
+
+ .col1 {
+   grid-column-start: 1;
+   grid-column-end: 13;
+ }
+
+ .col2 {
+   grid-column-start: 1;
+   grid-column-end: 6;
+ }
+
+ .col3 {
+   grid-column-start: 1;
+   grid-column-end: 4;
+
+ }
+
+ .col4 {
+   grid-column-start: 1;
+   grid-column-end: 3;
+
+ }
+
+ .col1-3 {
+   grid-column-start: 1;
+   grid-column-end: 8;
+   border: solid 1px yellow;
+
+ }
+
+ .col3-4 {
+   grid-column-start: 1;
+   grid-column-end: 9;
+     border: solid 1px yellow;
+
+ }
+
+ @media screen and (max-width: 991px) {
+
+ .grid-container {
+     display: grid;
+     grid-gap: 28px;
+     grid-template-column: auto auto auto auto auto auto auto auto;
+     margin: 0px 38px 0px 38px;
+   }
+ }
+
+ @media screen and (max-width: 767px) {
+  .grid-container {
+     display: grid;
+     grid-gap: 16px;
+     grid-template-column: auto auto auto auto;
+     margin: 0px 20px 0px 20px;
+   }
+ }
+
+ */
+ /* The above may be related to Colours page, but not sure. */

@@ -1,0 +1,18 @@
+function goBack() {
+    window.history.back();
+  }
+
+function toLevelTwo() {
+
+  var choice = document.getElementById('ab-tiers-guard-q');
+  choice = choice.tier-amt.value;
+
+  if (choice == 'Tier-1') {
+    window.location.replace('./asset-breakdown-level-1.html');
+  } else if (choice == 'Tier-2') {
+    window.location.replace('http://www.website.net');
+  } else if (choice == 'Tier-3') {
+    window.location.replace('http://www.bbc.co.uk');
+    alert('yes');
+  }
+}

@@ -3,6 +3,7 @@
 var tierFlag = 'T2';         // for Asset Breakdown: Sets the Tier from the Guard Q screen based on radio choice: T1, T2, or T3
 var levelTwoFlag = 'Bonds';     // for Asset Breakdown: Determines where button on Level 3 Bond Categories (S, M, L) screen sends user 
 var levelThreeFlag = 'All';   // for Asset Breakdown: Determines which fields are visible on Level 3 Bond Categories based on entries in corresponding fields on Level 2 Bond Categories
+var abTiersComplete = false;
 
 // ================ END GLOBAL VARIABLES ================ //
 
@@ -19,32 +20,45 @@ choice = choice.tierAmt.value;
 
 if (choice == 'Tier-1') {
   var tierFlag = 'T1';
-  console.log (tierFlag);
-  //window.location.href = './asset-breakdown-level-1-tier-1.html';
+  //console.log (tierFlag);
+  window.location.href = './asset-breakdown-level-1-tier-1.html';
 } else if (choice == 'Tier-2') {
   var tierFlag = 'T2';
-  console.log (tierFlag);
-  //window.location.href = 'http://www.website.net';
+  //console.log (tierFlag);
+  window.location.href = 'http://www.website.net';
 } else if (choice == 'Tier-3') {
   var tierFlag = 'T3';
-  console.log (tierFlag);
-  //window.location.href = 'http://www.bbc.co.uk';
+  //console.log (tierFlag);
+  window.location.href = 'http://www.bbc.co.uk';
   }
 }
 
 // ** Start Test Functions for Tier Flags and Level Flags ** //
 
-function toLevelTwo() {
+function toLevelTwoT1() {
 
-  var choice = document.getElementById('L1-form');
-  choice = choice.tierAmt.value;
+  var choice = document.getElementById('T1-L1-form');
+  var bondQty = document.getElementById('qty8');
+  bondQty = choice.qty8.value;
+  var equityQty = document.getElementById('qty9');
+  equityQty = choice.qty9.value;
+  var absReturnQty = document.getElementById('qty11');
+  absReturnQty = choice.qty11.value;
   
-  if (choice == 'Tier-1') {
-    window.location.href = './asset-breakdown-level-1-tier-1.html';
-  } else if (choice == 'Tier-2') {
-    window.location.href = 'http://www.website.net';
-  } else if (choice == 'Tier-3') {
-    window.location.href = 'http://www.bbc.co.uk';
+  if (bondQty && equityQty && absReturnQty == 0) {
+    var abTiersComplete = true;
+    console.log (levelTwoFlag);
+    //window.location.href = './home.html';
+  } else if (bondQty > 0 && (equityQty && absReturnQty == 0)){
+    var abTiersComplete = false;
+    var levelTwoFlag = 'Bonds';
+    console.log (levelTwoFlag);
+    //window.location.href = './asset-breakdown-level-2-bond-categories-tier-1.html';
+  } else if ((bondQty && equityQty > 0) && absReturnQty == 0) {
+    var abTiersComplete = false;
+    var levelTwoFlag = 'BE';
+    console.log (levelTwoFlag);
+    //window.location.href = './asset-breakdown-level-2-bond-categories-tier-1.html';
     }
   }
 
@@ -508,3 +522,93 @@ function showdivEC() {
     }
   });
 })()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TEST STUFF
+
+var something
+
+function testGoToAB() {
+
+  var selection = document.getElementById('test-guard-form');
+  selection = selection.tierAmt.value;
+  
+  if (selection == 'Tier-1') {
+    var tierFlag = 'T1';
+    function addTierClass() {  
+      $('ab-form').addClass('Tier1');
+      localStorage.setItem("ab-form", "Tier1");
+      $('bond-cat-form').addClass('Tier1');
+      localStorage.setItem("bond-cat-form", "Tier1");
+      $('bond-sml-form').addClass('Tier1');
+      localStorage.setItem("bond-sml-form", "Tier1");
+      $('equity-form').addClass('Tier1');
+      localStorage.setItem("equity-form", "Tier1");
+      //console.log (tierFlag);
+      window.location.href = './asset-breakdown-level-1-tier-1.html';
+    }
+    
+  } else if (selection == 'Tier-2') {
+    var tierFlag = 'T2';
+    function addTierClass() {  
+      $('ab-form').addClass('Tier2');
+      localStorage.setItem("ab-form", "Tier2");
+      $('bond-cat-form').addClass('Tier2');
+      localStorage.setItem("bond-cat-form", "Tier2");
+      $('bond-sml-form').addClass('Tier2');
+      localStorage.setItem("bond-sml-form", "Tier2");
+      $('equity-form').addClass('Tier2');
+      localStorage.setItem("equity-form", "Tier2");
+      //console.log (tierFlag);
+      window.location.href = 'http://www.website.net';
+    }
+    
+  } else if (selection == 'Tier-3') {
+    var tierFlag = 'T3';
+    function addTierClass() {  
+      $('ab-form').addClass('Tier3');
+      localStorage.setItem("ab-form", "Tier3");
+      $('bond-cat-form').addClass('Tier3');
+      localStorage.setItem("bond-cat-form", "Tier3");
+      $('bond-sml-form').addClass('Tier3');
+      localStorage.setItem("bond-sml-form", "Tier3");
+      $('equity-form').addClass('Tier3');
+      localStorage.setItem("equity-form", "Tier3");
+       //console.log (tierFlag);
+      window.location.href = 'http://www.bbc.co.uk';
+    }
+   
+    }
+  }
+
